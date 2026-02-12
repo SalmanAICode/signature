@@ -1,0 +1,1 @@
+export type BaseItem = 'FUND' | 'PAYBACK' | 'NONE';
