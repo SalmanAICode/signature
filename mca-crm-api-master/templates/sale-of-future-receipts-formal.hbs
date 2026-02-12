@@ -1,0 +1,463 @@
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        margin: 0;
+        font-family: Georgia, "Times New Roman", Times, serif;
+        font-size: 11pt;
+        line-height: 1.5;
+        color: #2c2416;
+        background: #fdfcf9;
+      }
+      .a4-container {
+        width: 210mm;
+        min-height: 297mm;
+        margin: 0 auto;
+        padding: 18mm;
+        background: #fff;
+        border: 1px solid #c4b8a4;
+        box-shadow: 0 0 0 2px #e8e2d8;
+      }
+      h1 {
+        text-align: center;
+        font-size: 17pt;
+        font-weight: 700;
+        margin: 0 0 2mm 0;
+        color: #3d3222;
+        letter-spacing: 0.02em;
+      }
+      .decorative-rule {
+        width: 60%;
+        margin: 4mm auto 10mm;
+        border: none;
+        border-top: 2px solid #6b5344;
+        border-bottom: 1px solid #c4b8a4;
+      }
+      .section-title {
+        font-size: 12pt;
+        font-weight: 700;
+        margin: 8mm 0 4mm 0;
+        color: #3d3222;
+        font-variant: small-caps;
+        letter-spacing: 0.08em;
+        padding-left: 2mm;
+        border-left: 4px solid #6b5344;
+      }
+      .card {
+        border: 2px solid #c4b8a4;
+        margin: 4mm 0;
+        background: #fdfcf9;
+      }
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        font-size: 10pt;
+      }
+      table.info-table td {
+        padding: 3mm 4mm;
+        vertical-align: top;
+        border-bottom: 1px solid #e0d9cc;
+      }
+      table.info-table tr:last-child td {
+        border-bottom: none;
+      }
+      table.info-table td.label {
+        font-weight: 600;
+        width: 38%;
+        color: #4a3f2f;
+      }
+      table.info-table td.value {
+        color: #2c2416;
+      }
+      table.financial-table {
+        border: 2px solid #6b5344;
+        margin: 5mm 0;
+      }
+      table.financial-table td,
+      table.financial-table th {
+        padding: 3mm 4mm;
+        text-align: left;
+        border: 1px solid #c4b8a4;
+      }
+      table.financial-table th {
+        background: #6b5344;
+        color: #fdfcf9;
+        font-weight: 600;
+        font-variant: small-caps;
+        letter-spacing: 0.05em;
+      }
+      table.financial-table td.amount {
+        text-align: right;
+      }
+      .paragraph {
+        margin: 4mm 0;
+        text-align: justify;
+        line-height: 1.6;
+        color: #3d3222;
+      }
+      .signature-section {
+        margin: 12mm 0 8mm 0;
+        page-break-inside: avoid;
+      }
+      .signature-block {
+        margin: 6mm 0;
+        border: 2px solid #c4b8a4;
+        padding: 5mm;
+        background: #fdfcf9;
+      }
+      .signature-line {
+        border-bottom: 2px solid #6b5344;
+        margin: 10mm 0 2mm 0;
+        min-height: 8mm;
+      }
+      .signature-label {
+        font-size: 9pt;
+        color: #5a4f3f;
+        font-style: italic;
+        margin-top: 1mm;
+      }
+      .signature-button {
+        display: inline-block;
+        padding: 8px 18px;
+        background: #6b5344;
+        color: #fdfcf9;
+        border: 2px solid #5a4538;
+        cursor: pointer;
+        font-size: 10pt;
+        font-weight: 600;
+        margin: 5mm 0;
+        font-variant: small-caps;
+      }
+      .signature-button:hover {
+        background: #5a4538;
+      }
+      .notice-box {
+        border: 2px solid #8b6914;
+        padding: 4mm;
+        margin: 4mm 0;
+        background: #fff9e6;
+        font-weight: 600;
+        color: #5a4510;
+        font-size: 10pt;
+      }
+      .text-center {
+        text-align: center;
+      }
+      .text-right {
+        text-align: right;
+      }
+      .mb-2 {
+        margin-bottom: 2mm;
+      }
+      .mt-2 {
+        margin-top: 2mm;
+      }
+      .footer-meta {
+        margin-top: 12mm;
+        padding-top: 4mm;
+        border-top: 1px solid #c4b8a4;
+        font-size: 9pt;
+        color: #5a4f3f;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="a4-container" data-template="formal">
+      <h1>Sale of Future Receipts Agreement</h1>
+      <hr class="decorative-rule" />
+
+      <div class="section-title">I. Merchant Information</div>
+      <div class="card">
+        <table class="info-table">
+          {{#if merchant.name}}
+            <tr><td class="label">Merchant's Legal Name:</td><td
+                class="value"
+              >{{merchant.name}}</td></tr>
+          {{/if}}{{#if merchant.dba_name}}
+            <tr><td class="label">D/B/A:</td><td
+                class="value"
+              >{{merchant.dba_name}}</td></tr>
+          {{/if}}{{#if merchant.business_entity_type}}
+            <tr><td class="label">Form of Business Entity and State of
+                Incorporation:</td><td
+                class="value"
+              >{{merchant.business_entity_type}}{{#if
+                  merchant.state_of_incorporation
+                }}, {{merchant.state_of_incorporation}}{{/if}}</td></tr>
+          {{/if}}{{#if merchant.street_address}}
+            <tr><td class="label">Street Address:</td><td
+                class="value"
+              >{{merchant.street_address}}</td></tr>
+          {{/if}}{{#if merchant.city}}
+            <tr><td class="label">City, State:</td><td
+                class="value"
+              >{{merchant.city}}{{#if merchant.state}},
+                  {{merchant.state}}{{/if}}</td></tr>
+          {{/if}}{{#if merchant.zip}}
+            <tr><td class="label">Zip Code:</td><td
+                class="value"
+              >{{merchant.zip}}</td></tr>
+          {{/if}}{{#if merchant.mailing_street}}
+            <tr><td class="label">Mailing Address:</td><td
+                class="value"
+              >{{merchant.mailing_street}}</td></tr>
+          {{/if}}{{#if merchant.mailing_city}}
+            <tr><td class="label">Mailing City, State:</td><td
+                class="value"
+              >{{merchant.mailing_city}}{{#if merchant.mailing_state}},
+                  {{merchant.mailing_state}}{{/if}}</td></tr>
+          {{/if}}{{#if merchant.mailing_zip}}
+            <tr><td class="label">Mailing Zip Code:</td><td
+                class="value"
+              >{{merchant.mailing_zip}}</td></tr>
+          {{/if}}{{#if merchant.primary_contact_name}}
+            <tr><td class="label">Primary Contact Name:</td><td
+                class="value"
+              >{{merchant.primary_contact_name}}</td></tr>
+          {{/if}}{{#if merchant.primary_contact_title}}
+            <tr><td class="label">Primary Contact Title:</td><td
+                class="value"
+              >{{merchant.primary_contact_title}}</td></tr>
+          {{/if}}{{#if merchant.primary_contact_email}}
+            <tr><td class="label">Primary Contact Email:</td><td
+                class="value"
+              >{{merchant.primary_contact_email}}</td></tr>
+          {{/if}}{{#if merchant.primary_contact_phone}}
+            <tr><td class="label">Primary Contact Phone:</td><td
+                class="value"
+              >{{merchant.primary_contact_phone}}</td></tr>
+          {{/if}}
+        </table>
+      </div>
+
+      {{#if merchant.bank_name}}{{#if merchant.routing_number}}{{#if
+            merchant.account_number
+          }}
+            <div class="section-title">II. Merchant's Bank Account Information</div>
+            <div class="card"><table class="info-table">
+                {{#if merchant.bank_name}}<tr><td class="label">Name of Bank:</td><td
+                      class="value"
+                    >{{merchant.bank_name}}</td></tr>{{/if}}
+                {{#if merchant.routing_number}}<tr><td class="label">ABA
+                      Transit/Routing #:</td><td
+                      class="value"
+                    >{{merchant.routing_number}}</td></tr>{{/if}}
+                {{#if merchant.account_number}}<tr><td class="label">Checking
+                      Account #:</td><td
+                      class="value"
+                    >{{merchant.account_number}}</td></tr>{{/if}}
+              </table></div>
+          {{/if}}{{/if}}{{/if}}
+
+      {{#if iso.name}}{{#if iso.email}}{{#if iso.phone}}{{#if iso.address}}
+              <div class="section-title">III. ISO Information</div>
+              <div class="card"><table class="info-table">
+                  {{#if iso.name}}<tr><td class="label">ISO Name:</td><td
+                        class="value"
+                      >{{iso.name}}</td></tr>{{/if}}
+                  {{#if iso.email}}<tr><td class="label">ISO Email:</td><td
+                        class="value"
+                      >{{iso.email}}</td></tr>{{/if}}
+                  {{#if iso.phone}}<tr><td class="label">ISO Phone:</td><td
+                        class="value"
+                      >{{iso.phone}}</td></tr>{{/if}}
+                  {{#if iso.address}}<tr><td class="label">ISO Address:</td><td
+                        class="value"
+                      >{{iso.address}}</td></tr>{{/if}}
+                </table></div>
+            {{/if}}{{/if}}{{/if}}{{/if}}
+
+      {{#if syndicator.name}}
+        <div class="section-title">IV. Syndicator Information</div>
+        <div class="card"><table class="info-table">
+            {{#if syndicator.name}}<tr><td class="label">Syndicator Name:</td><td
+                  class="value"
+                >{{syndicator.name}}</td></tr>{{/if}}
+            {{#if syndicator.first_name}}<tr><td class="label">Syndicator
+                  Contact:</td><td class="value">{{syndicator.first_name}}
+                  {{syndicator.last_name}}</td></tr>{{/if}}
+            {{#if syndicator.email}}<tr><td class="label">Syndicator Email:</td><td
+                  class="value"
+                >{{syndicator.email}}</td></tr>{{/if}}
+            {{#if syndicator.phone_mobile}}<tr><td class="label">Syndicator
+                  Phone:</td><td
+                  class="value"
+                >{{syndicator.phone_mobile}}</td></tr>{{/if}}
+          </table></div>
+      {{/if}}
+
+      {{#if funder.name}}
+        <div class="section-title">V. Funder (Funder) Information</div>
+        <div class="card"><table class="info-table">
+            {{#if funder.name}}<tr><td class="label">Funder Name:</td><td
+                  class="value"
+                >{{funder.name}}</td></tr>{{/if}}
+            {{#if funder.address}}<tr><td class="label">Funder Address:</td><td
+                  class="value"
+                >{{funder.address}}</td></tr>{{/if}}
+            {{#if funder.email}}<tr><td class="label">Funder Email:</td><td
+                  class="value"
+                >{{funder.email}}</td></tr>{{/if}}
+            {{#if funder.phone}}<tr><td class="label">Funder Phone:</td><td
+                  class="value"
+                >{{funder.phone}}</td></tr>{{/if}}
+          </table></div>
+      {{/if}}
+
+      {{#if lender.name}}
+        <div class="section-title">VI. Lender Information</div>
+        <div class="card"><table class="info-table">
+            {{#if lender.name}}<tr><td class="label">Lender Name:</td><td
+                  class="value"
+                >{{lender.name}}</td></tr>{{/if}}
+            {{#if lender.address}}<tr><td class="label">Lender Address:</td><td
+                  class="value"
+                >{{lender.address}}</td></tr>{{/if}}
+            {{#if lender.email}}<tr><td class="label">Lender Email:</td><td
+                  class="value"
+                >{{lender.email}}</td></tr>{{/if}}
+            {{#if lender.phone}}<tr><td class="label">Lender Phone:</td><td
+                  class="value"
+                >{{lender.phone}}</td></tr>{{/if}}
+          </table></div>
+      {{/if}}
+
+      {{#if purchase_price}}
+        <div class="section-title">VII. Financial Terms of the Agreement</div>
+        <table class="financial-table">
+          <tr><th>Item</th><th class="amount">Amount</th></tr>
+          {{#if purchase_price}}<tr><td>Purchase Price Paid to Marchant:</td><td
+                class="amount"
+              >${{purchase_price}}</td></tr>{{/if}}
+          {{#if purchased_amount}}<tr><td>Purchased Amount of Future Receipts:</td><td
+                class="amount"
+              >${{purchased_amount}}</td></tr>{{/if}}
+          {{#if specified_percentage}}<tr><td>Specified Percentage:</td><td
+                class="amount"
+              >{{specified_percentage}}%</td></tr>{{/if}}
+          {{#if frequency}}<tr><td>Periodic Frequency:</td><td
+                class="amount"
+              >{{frequency}}</td></tr>{{/if}}
+          {{#if initial_periodic_amount}}<tr><td>Initial Periodic Amount:</td><td
+                class="amount"
+              >${{initial_periodic_amount}}/{{frequency}}</td></tr>{{/if}}
+        </table>
+      {{/if}}
+
+      <div class="paragraph"><strong>Description of Initial Periodic Amount:</strong>
+        The Initial Periodic Amount is an estimate of the Specified Percentage
+        of average sales revenue, which will be debited from the bank account
+        each business day, based on prior revenue information. This amount may
+        be adjusted in accordance with Section 4 of this Agreement.</div>
+
+      {{#if purchase_price}}
+        <div class="section-title">VIII. Itemization of Net Amount Funded To
+          Marchant</div>
+        <table class="financial-table">
+          <tr><th>Item</th><th class="amount">Amount</th></tr>
+          {{#if purchase_price}}<tr><td>Purchase Price:</td><td
+                class="amount"
+              >${{purchase_price}}</td></tr>{{/if}}
+          {{#if prior_balance}}<tr><td>Prior Balance(s) (If applicable) paid to
+                Buyer and/or third parties:</td><td
+                class="amount"
+              >${{prior_balance}}</td></tr>{{/if}}
+          {{#if wire_fee}}<tr><td>Wire Fee (If applicable):</td><td
+                class="amount"
+              >${{wire_fee}}</td></tr>{{/if}}
+          {{#if origination_fee}}<tr><td>Origination Fee:</td><td
+                class="amount"
+              >${{origination_fee}}</td></tr>{{/if}}
+          {{#if fee_list}}{{#each fee_list}}{{#if this.amount}}<tr><td
+                  >{{this.name}}{{#if this.fee_type}}
+                      ({{this.fee_type}}){{/if}}:</td><td
+                    class="amount"
+                  >${{this.amount}}</td></tr>{{/if}}{{/each}}{{/if}}
+          {{#if net_amount_funded}}<tr
+              style="background:#6b5344;color:#fdfcf9;font-weight:600;"
+            ><td>Net Amount Funded to Marchant:</td><td
+                class="amount"
+              >${{net_amount_funded}}</td></tr>{{/if}}
+        </table>
+      {{/if}}
+
+      <div class="section-title">IX. Agreement</div>
+      <div class="paragraph">This Sale of Future Receipts Agreement
+        ("Agreement") effective,
+        <strong>{{effective_date}}</strong>, is made by and between
+        <strong>{{funder.name}}, {{funder.address}} ("Buyer")</strong>, the
+        business identified above ("Marchant"),{{#if syndicator.name}}
+          <strong>{{syndicator.name}} ("Syndicator")</strong>,{{else}}
+          <strong>N/A ("Syndicator")</strong>,{{/if}}{{#if iso.name}}
+          <strong>{{iso.name}} ("ISO")</strong>,{{else}}
+          <strong>N/A ("ISO")</strong>,{{/if}}
+        and each Guarantor identified below (each a "Guarantor").</div>
+      <div class="paragraph"><strong>Marchant</strong>, hereby sells, and
+        assigns to
+        <strong>Buyer</strong>, without recourse, the Purchased Amount of the
+        proceeds of each future sale made by Marchant (collectively "Future
+        Receipts") and will deliver the Specified Percentage of Future Receipts
+        in accordance with this Agreement.</div>
+
+      <div class="signature-section">
+        <div class="section-title">X. Signatures</div>
+        <div class="signature-block" data-role="seller">
+          <div class="paragraph">By signing below Merchant agrees to the terms
+            and conditions contained in this Agreement, including those terms
+            and conditions on the following pages, and further agrees that this
+            transaction is for business purposes.</div>
+          <div class="mb-2"><strong>Marchant:</strong> {{merchant.name}}</div>
+          <div class="signature-line"><div
+              id="seller-signature-status"
+              style="display:none;margin-top:4px;color:#2d5c2d;font-size:9pt;"
+            >✓ Signed</div></div>
+          <div class="signature-label">(Signature), its
+            {{merchant.primary_contact_title}}
+            (Title)</div>
+          <div class="signature-line mt-2"></div>
+          <div class="signature-label">(Printed Name and Title)</div>
+        </div>
+        <div class="signature-block" data-role="guarantor">
+          <div class="paragraph">By signing below each Guarantor agrees to the
+            terms and conditions contained in this Agreement, including those
+            terms and conditions on the following pages, and further agrees that
+            this transaction is for business purposes.</div>
+          <div class="notice-box"><strong>Notice:</strong>
+            This agreement contains a personal guaranty of performance, and by
+            signing below, you agree that you will be personally liable for the
+            prompt and complete performance of certain obligations of Merchant
+            as described in this Agreement.</div>
+          <div class="mb-2"><strong>Name:</strong>
+            {{merchant.primary_contact_name}}</div>
+          <div class="signature-line"><div
+              id="guarantor-signature-status"
+              style="display:none;margin-top:4px;color:#2d5c2d;font-size:9pt;"
+            >✓ Signed</div></div>
+          <div class="signature-label">(Signature)</div>
+        </div>
+        <div class="signature-block" data-role="buyer">
+          <div class="paragraph">By signing below Funder agrees to the terms and
+            conditions contained in this Agreement.</div>
+          <div class="mb-2"><strong>Buyer:</strong> {{funder.name}}</div>
+          <div class="signature-line"><div
+              id="buyer-signature-status"
+              style="display:none;margin-top:3px;color:#2d5c2d;font-size:8pt;"
+            >✓ Signed</div></div>
+          <div class="signature-label">(Signature)</div>
+        </div>
+      </div>
+
+      <div class="footer-meta">
+        {{! <button class="signature-button">Send for Signature</button> }}
+        <p style="margin:6px 0 2px 0;">This document was generated on
+          {{generation_date}}</p>
+        <p style="margin:0;">Document ID: {{document_id}}</p>
+      </div>
+    </div>
+  </body>
+</html>

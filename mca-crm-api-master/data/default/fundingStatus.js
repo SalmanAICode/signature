@@ -1,0 +1,80 @@
+module.exports = [
+    {
+        idx: 0,
+        bgcolor: '#B31A8D',
+        name: 'Created',
+        initial: true,
+        funded: false,
+        performing: false,
+        warning: false,
+        closed: false,
+        defaulted: false,
+        system: true,
+        inactive: false
+    },
+    {
+        idx: 1,
+        bgcolor: '#2B79C2',
+        name: 'Funded',
+        initial: false,
+        funded: true,
+        performing: false,
+        warning: false,
+        closed: false,
+        defaulted: false,
+        system: true,
+        inactive: false
+    },
+    {
+        idx: 2,
+        bgcolor: '#1AB394',
+        name: 'Performing',
+        initial: false,
+        funded: true,
+        performing: true,
+        warning: false,
+        closed: false,
+        defaulted: false,
+        system: true,
+        inactive: false
+    },
+    {
+        idx: 3,
+        bgcolor: '#F8AC59',
+        name: 'Warning',
+        initial: false,
+        funded: true,
+        performing: true,
+        warning: true,
+        closed: false,
+        defaulted: false,
+        system: true,
+        inactive: false
+    },
+    {
+        idx: 4,
+        bgcolor: '#D1DADE',
+        name: 'Closed',
+        initial: false,
+        funded: true,
+        performing: false,
+        warning: false,
+        closed: true,
+        defaulted: false,
+        system: true,
+        inactive: false
+    },
+    {
+        idx: 5,
+        bgcolor: '#ED5565',
+        name: 'Defaulted',
+        initial: false,
+        funded: true,
+        performing: false,
+        warning: false,
+        closed: true,
+        defaulted: true,
+        system: true,
+        inactive: false
+    }
+];

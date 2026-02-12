@@ -1,0 +1,5958 @@
+[
+  {
+    "code": "01",
+    "description": "Agricultural production-crops"
+  },
+  {
+    "code": "011",
+    "description": "Cash grains"
+  },
+  {
+    "code": "0111",
+    "description": "Wheat"
+  },
+  {
+    "code": "0112",
+    "description": "Rice"
+  },
+  {
+    "code": "0115",
+    "description": "Corn"
+  },
+  {
+    "code": "0116",
+    "description": "Soybeans"
+  },
+  {
+    "code": "0119",
+    "description": "Cash grains, not elsewhere classified"
+  },
+  {
+    "code": "013",
+    "description": "Field crops, except cash grains"
+  },
+  {
+    "code": "0131",
+    "description": "Cotton"
+  },
+  {
+    "code": "0132",
+    "description": "Tobacco"
+  },
+  {
+    "code": "0133",
+    "description": "Sugarcane and sugar beets"
+  },
+  {
+    "code": "0134",
+    "description": "Irish potatoes"
+  },
+  {
+    "code": "0139",
+    "description": "Field crops, except cash grains, not elsewhere classified"
+  },
+  {
+    "code": "016",
+    "description": "Vegetables and melons"
+  },
+  {
+    "code": "0161",
+    "description": "Vegetables and melons"
+  },
+  {
+    "code": "017",
+    "description": "Fruits and tree nuts"
+  },
+  {
+    "code": "0171",
+    "description": "Berry crops"
+  },
+  {
+    "code": "0172",
+    "description": "Grapes"
+  },
+  {
+    "code": "0173",
+    "description": "Tree nuts"
+  },
+  {
+    "code": "0174",
+    "description": "Citrus fruits"
+  },
+  {
+    "code": "0175",
+    "description": "Deciduous tree fruits"
+  },
+  {
+    "code": "0179",
+    "description": "Fruits and tree nuts, not elsewhere classified"
+  },
+  {
+    "code": "018",
+    "description": "Horticultural specialties"
+  },
+  {
+    "code": "0181",
+    "description": "Ornamental floriculture and nursery products"
+  },
+  {
+    "code": "0182",
+    "description": "Food crops grown under cover"
+  },
+  {
+    "code": "019",
+    "description": "General farms, primarily crop"
+  },
+  {
+    "code": "0191",
+    "description": "General farms, primarily crop"
+  },
+  {
+    "code": "02",
+    "description": "Agricultural production-livestock and animal specialties"
+  },
+  {
+    "code": "021",
+    "description": "Livestock, except dairy and poultry"
+  },
+  {
+    "code": "0211",
+    "description": "Beef cattle feedlots"
+  },
+  {
+    "code": "0212",
+    "description": "Beef cattle, except feedlots"
+  },
+  {
+    "code": "0213",
+    "description": "Hogs"
+  },
+  {
+    "code": "0214",
+    "description": "Sheep and goats"
+  },
+  {
+    "code": "0219",
+    "description": "General livestock, except dairy and poultry"
+  },
+  {
+    "code": "024",
+    "description": "Dairy farms"
+  },
+  {
+    "code": "0241",
+    "description": "Dairy farms"
+  },
+  {
+    "code": "025",
+    "description": "Poultry and eggs"
+  },
+  {
+    "code": "0251",
+    "description": "Broiler, fryer, and roaster chickens"
+  },
+  {
+    "code": "0252",
+    "description": "Chicken eggs"
+  },
+  {
+    "code": "0253",
+    "description": "Turkeys and turkey eggs"
+  },
+  {
+    "code": "0254",
+    "description": "Poultry hatcheries"
+  },
+  {
+    "code": "0259",
+    "description": "Poultry and eggs, not elsewhere classified"
+  },
+  {
+    "code": "027",
+    "description": "Animal specialties"
+  },
+  {
+    "code": "0271",
+    "description": "Fur-bearing animals and rabbits"
+  },
+  {
+    "code": "0272",
+    "description": "Horses and other equines"
+  },
+  {
+    "code": "0273",
+    "description": "Animal aquaculture"
+  },
+  {
+    "code": "0279",
+    "description": "Animal specialties, not elsewhere classified"
+  },
+  {
+    "code": "029",
+    "description": "General farms, primarily livestock and animal specialties"
+  },
+  {
+    "code": "0291",
+    "description": "General farms, primarily livestock and animal specialties"
+  },
+  {
+    "code": "07",
+    "description": "Agricultural services"
+  },
+  {
+    "code": "071",
+    "description": "Soil preparation services"
+  },
+  {
+    "code": "0711",
+    "description": "Soil preparation services"
+  },
+  {
+    "code": "072",
+    "description": "Crop services"
+  },
+  {
+    "code": "0721",
+    "description": "Crop planting, cultivating, and protecting"
+  },
+  {
+    "code": "0722",
+    "description": "Crop harvesting, primarily by machine"
+  },
+  {
+    "code": "0723",
+    "description": "Crop preparation services for market, except cotton ginning"
+  },
+  {
+    "code": "0724",
+    "description": "Cotton ginning"
+  },
+  {
+    "code": "074",
+    "description": "Veterinary services"
+  },
+  {
+    "code": "0741",
+    "description": "Veterinary services for livestock"
+  },
+  {
+    "code": "0742",
+    "description": "Veterinary services for animal specialties"
+  },
+  {
+    "code": "075",
+    "description": "Animal services, except veterinary"
+  },
+  {
+    "code": "0751",
+    "description": "Livestock services, except veterinary"
+  },
+  {
+    "code": "0752",
+    "description": "Animal specialty services, except veterinary"
+  },
+  {
+    "code": "076",
+    "description": "Farm labor and management services"
+  },
+  {
+    "code": "0761",
+    "description": "Farm labor contractors and crew leaders"
+  },
+  {
+    "code": "0762",
+    "description": "Farm management services"
+  },
+  {
+    "code": "078",
+    "description": "Landscape and horticultural services"
+  },
+  {
+    "code": "0781",
+    "description": "Landscape counseling and planning"
+  },
+  {
+    "code": "0782",
+    "description": "Lawn and garden services"
+  },
+  {
+    "code": "0783",
+    "description": "Ornamental shrub and tree services"
+  },
+  {
+    "code": "081",
+    "description": "Timber tracts"
+  },
+  {
+    "code": "0811",
+    "description": "Timber tracts"
+  },
+  {
+    "code": "083",
+    "description": "Forest nurseries and gathering of forest products"
+  },
+  {
+    "code": "0831",
+    "description": "Forest nurseries and gathering of forest products"
+  },
+  {
+    "code": "085",
+    "description": "Forestry services"
+  },
+  {
+    "code": "0851",
+    "description": "Forestry services"
+  },
+  {
+    "code": "09",
+    "description": "Fishing, hunting, and trapping"
+  },
+  {
+    "code": "091",
+    "description": "Commercial fishing"
+  },
+  {
+    "code": "0912",
+    "description": "Finfish"
+  },
+  {
+    "code": "0913",
+    "description": "Shellfish"
+  },
+  {
+    "code": "0919",
+    "description": "Miscellaneous marine products"
+  },
+  {
+    "code": "092",
+    "description": "Fish hatcheries and preserves"
+  },
+  {
+    "code": "0921",
+    "description": "Fish hatcheries and preserves"
+  },
+  {
+    "code": "097",
+    "description": "Hunting and trapping, and game propagation"
+  },
+  {
+    "code": "0971",
+    "description": "Hunting and trapping, and game propagation"
+  },
+  {
+    "code": "10",
+    "description": "Metal mining"
+  },
+  {
+    "code": "101",
+    "description": "Iron ores"
+  },
+  {
+    "code": "1011",
+    "description": "Iron ores"
+  },
+  {
+    "code": "102",
+    "description": "Copper ores"
+  },
+  {
+    "code": "1021",
+    "description": "Copper ores"
+  },
+  {
+    "code": "103",
+    "description": "Lead and zinc ores"
+  },
+  {
+    "code": "1031",
+    "description": "Lead and zinc ores"
+  },
+  {
+    "code": "104",
+    "description": "Gold and silver ores"
+  },
+  {
+    "code": "1041",
+    "description": "Gold ores"
+  },
+  {
+    "code": "1044",
+    "description": "Silver ores"
+  },
+  {
+    "code": "106",
+    "description": "Ferroalloy ores, except vanadium"
+  },
+  {
+    "code": "1061",
+    "description": "Ferroalloy ores, except vanadium"
+  },
+  {
+    "code": "108",
+    "description": "Metal mining services"
+  },
+  {
+    "code": "1081",
+    "description": "Metal mining services"
+  },
+  {
+    "code": "109",
+    "description": "Miscellaneous metal ores"
+  },
+  {
+    "code": "1094",
+    "description": "Uranium-radium-vanadium ores"
+  },
+  {
+    "code": "1099",
+    "description": "Miscellaneous metal ores, not elsewhere classified"
+  },
+  {
+    "code": "12",
+    "description": "Coal mining"
+  },
+  {
+    "code": "122",
+    "description": "Bituminous coal and lignite mining"
+  },
+  {
+    "code": "1221",
+    "description": "Bituminous coal and lignite surface mining"
+  },
+  {
+    "code": "1222",
+    "description": "Bituminous coal underground mining"
+  },
+  {
+    "code": "123",
+    "description": "Anthracite mining"
+  },
+  {
+    "code": "1231",
+    "description": "Anthracite mining"
+  },
+  {
+    "code": "124",
+    "description": "Coal mining services"
+  },
+  {
+    "code": "1241",
+    "description": "Coal mining services"
+  },
+  {
+    "code": "13",
+    "description": "Oil and gas extraction"
+  },
+  {
+    "code": "131",
+    "description": "Crude petroleum and natural gas"
+  },
+  {
+    "code": "1311",
+    "description": "Crude petroleum and natural gas"
+  },
+  {
+    "code": "132",
+    "description": "Natural gas liquids"
+  },
+  {
+    "code": "1321",
+    "description": "Natural gas liquids"
+  },
+  {
+    "code": "138",
+    "description": "Oil and gas field services"
+  },
+  {
+    "code": "1381",
+    "description": "Drilling oil and gas wells"
+  },
+  {
+    "code": "1382",
+    "description": "Oil and gas field exploration services"
+  },
+  {
+    "code": "1389",
+    "description": "Oil and gas field services, not elsewhere classified"
+  },
+  {
+    "code": "14",
+    "description": "Mining and quarrying of nonmetallic minerals, except fuels"
+  },
+  {
+    "code": "141",
+    "description": "Dimension stone"
+  },
+  {
+    "code": "1411",
+    "description": "Dimension stone"
+  },
+  {
+    "code": "142",
+    "description": "Crushed and broken stone, including riprap"
+  },
+  {
+    "code": "1422",
+    "description": "Crushed and broken limestone"
+  },
+  {
+    "code": "1423",
+    "description": "Crushed and broken granite"
+  },
+  {
+    "code": "1429",
+    "description": "Crushed and broken stone, not elsewhere classified"
+  },
+  {
+    "code": "144",
+    "description": "Sand and gravel"
+  },
+  {
+    "code": "1442",
+    "description": "Construction sand and gravel"
+  },
+  {
+    "code": "1446",
+    "description": "Industrial sand"
+  },
+  {
+    "code": "145",
+    "description": "Clay, ceramic, and refractory minerals"
+  },
+  {
+    "code": "1455",
+    "description": "Kaolin and ball clay"
+  },
+  {
+    "code": "1459",
+    "description": "Clay, ceramic, and refractory minerals, not elsewhere classified"
+  },
+  {
+    "code": "147",
+    "description": "Chemical and fertilizer mineral mining"
+  },
+  {
+    "code": "1474",
+    "description": "Potash, soda, and borate minerals"
+  },
+  {
+    "code": "1475",
+    "description": "Phosphate rock"
+  },
+  {
+    "code": "1479",
+    "description": "Chemical and fertilizer mineral mining, not elsewhere classified"
+  },
+  {
+    "code": "148",
+    "description": "Nonmetallic minerals services, except fuels"
+  },
+  {
+    "code": "1481",
+    "description": "Nonmetallic minerals services, except fuels"
+  },
+  {
+    "code": "149",
+    "description": "Miscellaneous nonmetallic minerals, except fuels"
+  },
+  {
+    "code": "1499",
+    "description": "Miscellaneous nonmetallic minerals, except fuels"
+  },
+  {
+    "code": "15",
+    "description": "Building construction-general contractors and operative builders"
+  },
+  {
+    "code": "152",
+    "description": "General building contractors-residential buildings"
+  },
+  {
+    "code": "1521",
+    "description": "General contractors-single-family houses"
+  },
+  {
+    "code": "1522",
+    "description": "General contractors-residential buildings, other than single-fami"
+  },
+  {
+    "code": "153",
+    "description": "Operative builders"
+  },
+  {
+    "code": "1531",
+    "description": "Operative builders"
+  },
+  {
+    "code": "154",
+    "description": "General building contractors-nonresidential buildings"
+  },
+  {
+    "code": "1541",
+    "description": "General contractors-industrial buildings and warehouses"
+  },
+  {
+    "code": "1542",
+    "description": "General contractors-nonresidential buildings, other than industri"
+  },
+  {
+    "code": "16",
+    "description": "Heavy construction other than building construction-contractors"
+  },
+  {
+    "code": "161",
+    "description": "Highway and street construction, except elevated highways"
+  },
+  {
+    "code": "1611",
+    "description": "Highway and street construction, except elevated highways"
+  },
+  {
+    "code": "162",
+    "description": "Heavy construction, except highway and street construction"
+  },
+  {
+    "code": "1622",
+    "description": "Bridge, tunnel, and elevated highway construction"
+  },
+  {
+    "code": "1623",
+    "description": "Water, sewer, pipeline, and communications and power line constru"
+  },
+  {
+    "code": "1629",
+    "description": "Heavy construction, not elsewhere classified"
+  },
+  {
+    "code": "17",
+    "description": "Construction-special trade contractors"
+  },
+  {
+    "code": "171",
+    "description": "Plumbing, heating and air-conditioning"
+  },
+  {
+    "code": "1711",
+    "description": "Plumbing, heating and air-conditioning"
+  },
+  {
+    "code": "172",
+    "description": "Painting and paper hanging"
+  },
+  {
+    "code": "1721",
+    "description": "Painting and paper hanging"
+  },
+  {
+    "code": "173",
+    "description": "Electrical work"
+  },
+  {
+    "code": "1731",
+    "description": "Electrical work"
+  },
+  {
+    "code": "174",
+    "description": "Masonry, stonework, tile setting, and plastering"
+  },
+  {
+    "code": "1741",
+    "description": "Masonry, stone setting, and other stone work"
+  },
+  {
+    "code": "1742",
+    "description": "Plastering, drywall, acoustical, and insulation work"
+  },
+  {
+    "code": "1743",
+    "description": "Terrazzo, tile, marble, and mosaic work"
+  },
+  {
+    "code": "175",
+    "description": "Carpentry and floor work"
+  },
+  {
+    "code": "1751",
+    "description": "Carpentry work"
+  },
+  {
+    "code": "1752",
+    "description": "Floor laying and other floor work, not elsewhere classified"
+  },
+  {
+    "code": "176",
+    "description": "Roofing, siding, and sheet metal work"
+  },
+  {
+    "code": "1761",
+    "description": "Roofing, siding, and sheet metal work"
+  },
+  {
+    "code": "177",
+    "description": "Concrete work"
+  },
+  {
+    "code": "1771",
+    "description": "Concrete work"
+  },
+  {
+    "code": "178",
+    "description": "Water well drilling"
+  },
+  {
+    "code": "1781",
+    "description": "Water well drilling"
+  },
+  {
+    "code": "179",
+    "description": "Miscellaneous special trade contractors"
+  },
+  {
+    "code": "1791",
+    "description": "Structural steel erection"
+  },
+  {
+    "code": "1793",
+    "description": "Glass and glazing work"
+  },
+  {
+    "code": "1794",
+    "description": "Excavation work"
+  },
+  {
+    "code": "1795",
+    "description": "Wrecking and demolition work"
+  },
+  {
+    "code": "1796",
+    "description": "Installation or erection of building equipment, not elsewhere cla"
+  },
+  {
+    "code": "1799",
+    "description": "Special trade contractors, not elsewhere classified"
+  },
+  {
+    "code": "20",
+    "description": "Food and kindred products"
+  },
+  {
+    "code": "201",
+    "description": "Meat products"
+  },
+  {
+    "code": "2011",
+    "description": "Meat packing plants"
+  },
+  {
+    "code": "2013",
+    "description": "Sausages and other prepared meat products"
+  },
+  {
+    "code": "2015",
+    "description": "Poultry slaughtering and processing"
+  },
+  {
+    "code": "202",
+    "description": "Dairy products"
+  },
+  {
+    "code": "2021",
+    "description": "Creamery butter"
+  },
+  {
+    "code": "2022",
+    "description": "Natural, processed, and imitation cheese"
+  },
+  {
+    "code": "2023",
+    "description": "Dry, condensed, and evaporated dairy products"
+  },
+  {
+    "code": "2024",
+    "description": "Ice cream and frozen desserts"
+  },
+  {
+    "code": "2026",
+    "description": "Fluid milk"
+  },
+  {
+    "code": "203",
+    "description": "Canned, frozen, and preserved fruits, vegetables, and food special"
+  },
+  {
+    "code": "2032",
+    "description": "Canned specialties"
+  },
+  {
+    "code": "2033",
+    "description": "Canned fruits, vegetables, preserves, jams, and jellies"
+  },
+  {
+    "code": "2034",
+    "description": "Dried and dehydrated fruits, vegetables, and soup mixes"
+  },
+  {
+    "code": "2035",
+    "description": "Pickled fruits and vegetables, vegetable sauces and seasonings, a"
+  },
+  {
+    "code": "2037",
+    "description": "Frozen fruits, fruit juices, and vegetables"
+  },
+  {
+    "code": "2038",
+    "description": "Frozen specialties, not elsewhere classified"
+  },
+  {
+    "code": "204",
+    "description": "Grain mill products"
+  },
+  {
+    "code": "2041",
+    "description": "Flour and other grain mill products"
+  },
+  {
+    "code": "2043",
+    "description": "Cereal breakfast foods"
+  },
+  {
+    "code": "2044",
+    "description": "Rice milling"
+  },
+  {
+    "code": "2045",
+    "description": "Prepared flour mixes and doughs"
+  },
+  {
+    "code": "2046",
+    "description": "Wet corn milling"
+  },
+  {
+    "code": "2047",
+    "description": "Dog and cat food"
+  },
+  {
+    "code": "2048",
+    "description": "Prepared feeds and feed ingredients for animals and fowls, except"
+  },
+  {
+    "code": "205",
+    "description": "Bakery products"
+  },
+  {
+    "code": "2051",
+    "description": "Bread and other bakery products, except cookies and crackers"
+  },
+  {
+    "code": "2052",
+    "description": "Cookies and crackers"
+  },
+  {
+    "code": "2053",
+    "description": "Frozen bakery products, except bread"
+  },
+  {
+    "code": "206",
+    "description": "Sugar and confectionery products"
+  },
+  {
+    "code": "2061",
+    "description": "Cane sugar, except refining"
+  },
+  {
+    "code": "2062",
+    "description": "Cane sugar refining"
+  },
+  {
+    "code": "2063",
+    "description": "Beet sugar"
+  },
+  {
+    "code": "2064",
+    "description": "Candy and other confectionery products"
+  },
+  {
+    "code": "2066",
+    "description": "Chocolate and cocoa products"
+  },
+  {
+    "code": "2067",
+    "description": "Chewing gum"
+  },
+  {
+    "code": "2068",
+    "description": "Salted and roasted nuts and seeds"
+  },
+  {
+    "code": "207",
+    "description": "Fats and oils"
+  },
+  {
+    "code": "2074",
+    "description": "Cottonseed oil mills"
+  },
+  {
+    "code": "2075",
+    "description": "Soybean oil mills"
+  },
+  {
+    "code": "2076",
+    "description": "Vegetable oil mills, except corn, cottonseed, and soybean"
+  },
+  {
+    "code": "2077",
+    "description": "Animal and marine fats and oils"
+  },
+  {
+    "code": "2079",
+    "description": "Shortening, table oils, margarine, and other edible fats and oils"
+  },
+  {
+    "code": "208",
+    "description": "Beverages"
+  },
+  {
+    "code": "2082",
+    "description": "Malt beverages"
+  },
+  {
+    "code": "2083",
+    "description": "Malt"
+  },
+  {
+    "code": "2084",
+    "description": "Wines, brandy, and brandy spirits"
+  },
+  {
+    "code": "2085",
+    "description": "Distilled and blended liquors"
+  },
+  {
+    "code": "2086",
+    "description": "Bottled and canned soft drinks and carbonated waters"
+  },
+  {
+    "code": "2087",
+    "description": "Flavoring extracts and flavoring syrups, not elsewhere classified"
+  },
+  {
+    "code": "209",
+    "description": "Miscellaneous food preparations and kindred products"
+  },
+  {
+    "code": "2091",
+    "description": "Canned and cured fish and seafoods"
+  },
+  {
+    "code": "2092",
+    "description": "Prepared fresh or frozen fish and seafoods"
+  },
+  {
+    "code": "2095",
+    "description": "Roasted coffee"
+  },
+  {
+    "code": "2096",
+    "description": "Potato chips, corn chips, and similar snacks"
+  },
+  {
+    "code": "2097",
+    "description": "Manufactured ice"
+  },
+  {
+    "code": "2098",
+    "description": "Macaroni, spaghetti, vermicelli, and noodles"
+  },
+  {
+    "code": "2099",
+    "description": "Food preparations, not elsewhere classified"
+  },
+  {
+    "code": "21",
+    "description": "Tobacco products"
+  },
+  {
+    "code": "211",
+    "description": "Cigarettes"
+  },
+  {
+    "code": "2111",
+    "description": "Cigarettes"
+  },
+  {
+    "code": "212",
+    "description": "Cigars"
+  },
+  {
+    "code": "2121",
+    "description": "Cigars"
+  },
+  {
+    "code": "213",
+    "description": "Chewing and smoking tobacco and snuff"
+  },
+  {
+    "code": "2131",
+    "description": "Chewing and smoking tobacco and snuff"
+  },
+  {
+    "code": "214",
+    "description": "Tobacco stemming and redrying"
+  },
+  {
+    "code": "2141",
+    "description": "Tobacco stemming and redrying"
+  },
+  {
+    "code": "22",
+    "description": "Textile mill products"
+  },
+  {
+    "code": "221",
+    "description": "Broadwoven fabric mills, cotton"
+  },
+  {
+    "code": "2211",
+    "description": "Broadwoven fabric mills, cotton"
+  },
+  {
+    "code": "222",
+    "description": "Broadwoven fabric mills, manmade fiber and silk"
+  },
+  {
+    "code": "2221",
+    "description": "Broadwoven fabric mills, manmade fiber and silk"
+  },
+  {
+    "code": "223",
+    "description": "Broadwoven fabric mills, wool (including dyeing and finishing)"
+  },
+  {
+    "code": "2231",
+    "description": "Broadwoven fabric mills, wool (including dyeing and finishing)"
+  },
+  {
+    "code": "225",
+    "description": "Knitting mills"
+  },
+  {
+    "code": "2251",
+    "description": "Women's full-length and knee-length hosiery, except socks"
+  },
+  {
+    "code": "2252",
+    "description": "Hosiery, not elsewhere classified"
+  },
+  {
+    "code": "2253",
+    "description": "Knit outerwear mills"
+  },
+  {
+    "code": "2254",
+    "description": "Knit underwear and nightwear mills"
+  },
+  {
+    "code": "2257",
+    "description": "Weft knit fabric mills"
+  },
+  {
+    "code": "2258",
+    "description": "Lace and warp knit fabric mills"
+  },
+  {
+    "code": "2259",
+    "description": "Knitting mills, not elsewhere classified"
+  },
+  {
+    "code": "226",
+    "description": "Dyeing and finishing textiles, except wool fabrics and knit goods"
+  },
+  {
+    "code": "2261",
+    "description": "Finishers of broadwoven fabrics of cotton"
+  },
+  {
+    "code": "2262",
+    "description": "Finishers of broadwoven fabrics of manmade fiber and silk"
+  },
+  {
+    "code": "2269",
+    "description": "Finishers of textiles, not elsewhere classified"
+  },
+  {
+    "code": "227",
+    "description": "Carpets and rugs"
+  },
+  {
+    "code": "2273",
+    "description": "Carpets and rugs"
+  },
+  {
+    "code": "228",
+    "description": "Yarn and thread mills"
+  },
+  {
+    "code": "2281",
+    "description": "Yarn spinning mills"
+  },
+  {
+    "code": "2282",
+    "description": "Yarn texturizing, throwing, twisting, and winding mills"
+  },
+  {
+    "code": "2284",
+    "description": "Thread mills"
+  },
+  {
+    "code": "229",
+    "description": "Miscellaneous textile goods"
+  },
+  {
+    "code": "2295",
+    "description": "Coated fabrics, not rubberized"
+  },
+  {
+    "code": "2296",
+    "description": "Tire cord and fabrics"
+  },
+  {
+    "code": "2297",
+    "description": "Nonwoven fabrics"
+  },
+  {
+    "code": "2298",
+    "description": "Cordage and twine"
+  },
+  {
+    "code": "2299",
+    "description": "Textile goods, not elsewhere classified"
+  },
+  {
+    "code": "23",
+    "description": "Apparel and other finished products made from fabrics and similar material"
+  },
+  {
+    "code": "231",
+    "description": "Men's and boys' suits, coats, and overcoats"
+  },
+  {
+    "code": "2311",
+    "description": "Men's and boys' suits, coats, and overcoats"
+  },
+  {
+    "code": "232",
+    "description": "Men's and boys' furnishings, work clothing, and allied garments"
+  },
+  {
+    "code": "2321",
+    "description": "Men's and boys' shirts, except work shirts"
+  },
+  {
+    "code": "2322",
+    "description": "Men's and boys' underwear and nightwear"
+  },
+  {
+    "code": "2323",
+    "description": "Men's and boys' neckwear"
+  },
+  {
+    "code": "2325",
+    "description": "Men's and boys' separate trousers and slacks"
+  },
+  {
+    "code": "2326",
+    "description": "Men's and boys' work clothing"
+  },
+  {
+    "code": "2329",
+    "description": "Men's and boys' clothing, not elsewhere classified"
+  },
+  {
+    "code": "233",
+    "description": "Women's, misses', and juniors' outerwear"
+  },
+  {
+    "code": "2331",
+    "description": "Women's, misses', and juniors' blouses and shirts"
+  },
+  {
+    "code": "2335",
+    "description": "Women's, misses', and juniors' dresses"
+  },
+  {
+    "code": "2337",
+    "description": "Women's, misses', and juniors' suits, skirts, and coats"
+  },
+  {
+    "code": "2339",
+    "description": "Women's, misses', and juniors' outerwear, not elsewhere classifie"
+  },
+  {
+    "code": "234",
+    "description": "Women's, misses', children's, and infants' undergarments"
+  },
+  {
+    "code": "2341",
+    "description": "Women's, misses', children's, and infants' underwear and nightwea"
+  },
+  {
+    "code": "2342",
+    "description": "Brassieres, girdles, and allied garments"
+  },
+  {
+    "code": "235",
+    "description": "Hats, caps, and millinery"
+  },
+  {
+    "code": "2353",
+    "description": "Hats, caps, and millinery"
+  },
+  {
+    "code": "236",
+    "description": "Girls', children's, and infants' outerwear"
+  },
+  {
+    "code": "2361",
+    "description": "Girls', children's, and infants' dresses, blouses, and shirts"
+  },
+  {
+    "code": "2369",
+    "description": "Girls', children's, and infants' outerwear, not elsewhere classif"
+  },
+  {
+    "code": "237",
+    "description": "Fur goods"
+  },
+  {
+    "code": "2371",
+    "description": "Fur goods"
+  },
+  {
+    "code": "238",
+    "description": "Miscellaneous apparel and accessories"
+  },
+  {
+    "code": "2381",
+    "description": "Dress and work gloves, except knit and all-leather"
+  },
+  {
+    "code": "2384",
+    "description": "Robes and dressing gowns"
+  },
+  {
+    "code": "2385",
+    "description": "Waterproof outerwear"
+  },
+  {
+    "code": "2386",
+    "description": "Leather and sheep-lined clothing"
+  },
+  {
+    "code": "2387",
+    "description": "Apparel belts"
+  },
+  {
+    "code": "2389",
+    "description": "Apparel and accessories, not elsewhere classified"
+  },
+  {
+    "code": "239",
+    "description": "Miscellaneous fabricated textile products"
+  },
+  {
+    "code": "2391",
+    "description": "Curtains and draperies"
+  },
+  {
+    "code": "2392",
+    "description": "Housefurnishings, except curtains and draperies"
+  },
+  {
+    "code": "2393",
+    "description": "Textile bags"
+  },
+  {
+    "code": "2394",
+    "description": "Canvas and related products"
+  },
+  {
+    "code": "2395",
+    "description": "Pleating, decorative and novelty stitching, and tucking for the t"
+  },
+  {
+    "code": "2396",
+    "description": "Automotive trimmings, apparel findings, and related products"
+  },
+  {
+    "code": "2397",
+    "description": "Schiffli machine embroideries"
+  },
+  {
+    "code": "2399",
+    "description": "Fabricated textile products, not elsewhere classified"
+  },
+  {
+    "code": "24",
+    "description": "Lumber and wood products, except furniture"
+  },
+  {
+    "code": "241",
+    "description": "Logging"
+  },
+  {
+    "code": "2411",
+    "description": "Logging"
+  },
+  {
+    "code": "242",
+    "description": "Sawmills and planing mills"
+  },
+  {
+    "code": "2421",
+    "description": "Sawmills and planing mills, general"
+  },
+  {
+    "code": "2426",
+    "description": "Hardwood dimension and flooring mills"
+  },
+  {
+    "code": "2429",
+    "description": "Special product sawmills, not elsewhere classified"
+  },
+  {
+    "code": "243",
+    "description": "Millwork, veneer, plywood, and structural wood members"
+  },
+  {
+    "code": "2431",
+    "description": "Millwork"
+  },
+  {
+    "code": "2434",
+    "description": "Wood kitchen cabinets"
+  },
+  {
+    "code": "2435",
+    "description": "Hardwood veneer and plywood"
+  },
+  {
+    "code": "2436",
+    "description": "Softwood veneer and plywood"
+  },
+  {
+    "code": "2439",
+    "description": "Structural wood members, not elsewhere classified"
+  },
+  {
+    "code": "244",
+    "description": "Wood containers"
+  },
+  {
+    "code": "2441",
+    "description": "Nailed and lock corner wood boxes and shook"
+  },
+  {
+    "code": "2448",
+    "description": "Wood pallets and skids"
+  },
+  {
+    "code": "2449",
+    "description": "Wood containers, not elsewhere classified"
+  },
+  {
+    "code": "245",
+    "description": "Wood buildings and mobile homes"
+  },
+  {
+    "code": "2451",
+    "description": "Mobile homes"
+  },
+  {
+    "code": "2452",
+    "description": "Prefabricated wood buildings and components"
+  },
+  {
+    "code": "249",
+    "description": "Miscellaneous wood products"
+  },
+  {
+    "code": "2491",
+    "description": "Wood preserving"
+  },
+  {
+    "code": "2493",
+    "description": "Reconstituted wood products"
+  },
+  {
+    "code": "2499",
+    "description": "Wood products, not elsewhere classified"
+  },
+  {
+    "code": "25",
+    "description": "Furniture and fixtures"
+  },
+  {
+    "code": "251",
+    "description": "Household furniture"
+  },
+  {
+    "code": "2511",
+    "description": "Wood household furniture, except upholstered"
+  },
+  {
+    "code": "2512",
+    "description": "Wood household furniture, upholstered"
+  },
+  {
+    "code": "2514",
+    "description": "Metal household furniture"
+  },
+  {
+    "code": "2515",
+    "description": "Mattresses, foundations, and convertible beds"
+  },
+  {
+    "code": "2517",
+    "description": "Wood television, radio, phonograph, and sewing machine cabinets"
+  },
+  {
+    "code": "2519",
+    "description": "Household furniture, not elsewhere classified"
+  },
+  {
+    "code": "252",
+    "description": "Office furniture"
+  },
+  {
+    "code": "2521",
+    "description": "Wood office furniture"
+  },
+  {
+    "code": "2522",
+    "description": "Office furniture, except wood"
+  },
+  {
+    "code": "253",
+    "description": "Public building and related furniture"
+  },
+  {
+    "code": "2531",
+    "description": "Public building and related furniture"
+  },
+  {
+    "code": "254",
+    "description": "Partitions, shelving, lockers, and office and store fixtures"
+  },
+  {
+    "code": "2541",
+    "description": "Wood office and store fixtures, partitions, shelving, and lockers"
+  },
+  {
+    "code": "2542",
+    "description": "Office and store fixtures, partitions, shelving, and lockers, exc"
+  },
+  {
+    "code": "259",
+    "description": "Miscellaneous furniture and fixtures"
+  },
+  {
+    "code": "2591",
+    "description": "Drapery hardware and window blinds and shades"
+  },
+  {
+    "code": "2599",
+    "description": "Furniture and fixtures, not elsewhere classified"
+  },
+  {
+    "code": "26",
+    "description": "Paper and allied products"
+  },
+  {
+    "code": "261",
+    "description": "Pulp mills"
+  },
+  {
+    "code": "2611",
+    "description": "Pulp mills"
+  },
+  {
+    "code": "262",
+    "description": "Paper mills"
+  },
+  {
+    "code": "2621",
+    "description": "Paper mills"
+  },
+  {
+    "code": "263",
+    "description": "Paperboard mills"
+  },
+  {
+    "code": "2631",
+    "description": "Paperboard mills"
+  },
+  {
+    "code": "265",
+    "description": "Paperboard containers and boxes"
+  },
+  {
+    "code": "2652",
+    "description": "Setup paperboard boxes"
+  },
+  {
+    "code": "2653",
+    "description": "Corrugated and solid fiber boxes"
+  },
+  {
+    "code": "2655",
+    "description": "Fiber cans, tubes, drums, and similar products"
+  },
+  {
+    "code": "2656",
+    "description": "Sanitary food containers, except folding"
+  },
+  {
+    "code": "2657",
+    "description": "Folding paperboard boxes, including sanitary"
+  },
+  {
+    "code": "267",
+    "description": "Converted paper and paperboard products, except containers and box"
+  },
+  {
+    "code": "2671",
+    "description": "Packaging paper and plastics film, coated and laminated"
+  },
+  {
+    "code": "2672",
+    "description": "Coated and laminated paper, not elsewhere classified"
+  },
+  {
+    "code": "2673",
+    "description": "Plastics, foil, and coated paper bags"
+  },
+  {
+    "code": "2674",
+    "description": "Uncoated paper and multiwall bags"
+  },
+  {
+    "code": "2675",
+    "description": "Die-cut paper and paperboard and cardboard"
+  },
+  {
+    "code": "2676",
+    "description": "Sanitary paper products"
+  },
+  {
+    "code": "2677",
+    "description": "Envelopes"
+  },
+  {
+    "code": "2678",
+    "description": "Stationery, tablets, and related products"
+  },
+  {
+    "code": "2679",
+    "description": "Converted paper and paperboard products, not elsewhere classified"
+  },
+  {
+    "code": "27",
+    "description": "Printing, publishing, and allied industries"
+  },
+  {
+    "code": "273",
+    "description": "Books"
+  },
+  {
+    "code": "2732",
+    "description": "Book printing"
+  },
+  {
+    "code": "274",
+    "description": "Miscellaneous publishing"
+  },
+  {
+    "code": "2741",
+    "description": "Miscellaneous publishing"
+  },
+  {
+    "code": "275",
+    "description": "Commercial printing"
+  },
+  {
+    "code": "2752",
+    "description": "Commercial printing, lithographic"
+  },
+  {
+    "code": "2754",
+    "description": "Commercial printing, gravure"
+  },
+  {
+    "code": "2759",
+    "description": "Commercial printing, not elsewhere classified"
+  },
+  {
+    "code": "276",
+    "description": "Manifold business forms"
+  },
+  {
+    "code": "2761",
+    "description": "Manifold business forms"
+  },
+  {
+    "code": "277",
+    "description": "Greeting cards"
+  },
+  {
+    "code": "2771",
+    "description": "Greeting cards"
+  },
+  {
+    "code": "278",
+    "description": "Blankbooks, looseleaf binders, and bookbinding and related work"
+  },
+  {
+    "code": "2782",
+    "description": "Blankbooks, looseleaf binders and devices"
+  },
+  {
+    "code": "2789",
+    "description": "Bookbinding and related work"
+  },
+  {
+    "code": "279",
+    "description": "Service industries for the printing trade"
+  },
+  {
+    "code": "2791",
+    "description": "Typesetting"
+  },
+  {
+    "code": "2796",
+    "description": "Platemaking and related services"
+  },
+  {
+    "code": "28",
+    "description": "Chemicals and allied products"
+  },
+  {
+    "code": "281",
+    "description": "Industrial inorganic chemicals"
+  },
+  {
+    "code": "2812",
+    "description": "Alkalies and chlorine"
+  },
+  {
+    "code": "2813",
+    "description": "Industrial gases"
+  },
+  {
+    "code": "2816",
+    "description": "Inorganic pigments"
+  },
+  {
+    "code": "2819",
+    "description": "Industrial inorganic chemicals, not elsewhere classified"
+  },
+  {
+    "code": "282",
+    "description": "Plastics materials and synthetic resins, synthetic rubber, cellulo"
+  },
+  {
+    "code": "2821",
+    "description": "Plastics materials, synthetic resins, and nonvulcanizable elastom"
+  },
+  {
+    "code": "2822",
+    "description": "Synthetic rubber (vulcanizable elastomers)"
+  },
+  {
+    "code": "2823",
+    "description": "Cellulosic manmade fibers"
+  },
+  {
+    "code": "2824",
+    "description": "Manmade organic fibers, except cellulosic"
+  },
+  {
+    "code": "283",
+    "description": "Drugs"
+  },
+  {
+    "code": "2833",
+    "description": "Medicinal chemicals and botanical products"
+  },
+  {
+    "code": "2834",
+    "description": "Pharmaceutical preparations"
+  },
+  {
+    "code": "2835",
+    "description": "In vitro and in vivo diagnostic substances"
+  },
+  {
+    "code": "2836",
+    "description": "Biological products, except diagnostic substances"
+  },
+  {
+    "code": "2841",
+    "description": "Soap and other detergents, except specialty cleaners"
+  },
+  {
+    "code": "2842",
+    "description": "Specialty cleaning, polishing, and sanitation preparations"
+  },
+  {
+    "code": "2843",
+    "description": "Surface active agents, finishing agents, sulfonated oils, and ass"
+  },
+  {
+    "code": "2844",
+    "description": "Perfumes, cosmetics, and other toilet preparations"
+  },
+  {
+    "code": "285",
+    "description": "Paints, varnishes, lacquers, enamels, and allied products"
+  },
+  {
+    "code": "2851",
+    "description": "Paints, varnishes, lacquers, enamels, and allied products"
+  },
+  {
+    "code": "286",
+    "description": "Industrial organic chemicals"
+  },
+  {
+    "code": "2861",
+    "description": "Gum and wood chemicals"
+  },
+  {
+    "code": "2865",
+    "description": "Cyclic organic crudes and intermediates, and organic dyes and pig"
+  },
+  {
+    "code": "2869",
+    "description": "Industrial organic chemicals, not elsewhere classified"
+  },
+  {
+    "code": "287",
+    "description": "Agricultural chemicals"
+  },
+  {
+    "code": "2873",
+    "description": "Nitrogenous fertilizers"
+  },
+  {
+    "code": "2874",
+    "description": "Phosphatic fertilizers"
+  },
+  {
+    "code": "2875",
+    "description": "Fertilizers, mixing only"
+  },
+  {
+    "code": "2879",
+    "description": "Pesticides and agricultural chemicals, not elsewhere classified"
+  },
+  {
+    "code": "289",
+    "description": "Miscellaneous chemical products"
+  },
+  {
+    "code": "2891",
+    "description": "Adhesives and sealants"
+  },
+  {
+    "code": "2892",
+    "description": "Explosives"
+  },
+  {
+    "code": "2893",
+    "description": "Printing ink"
+  },
+  {
+    "code": "2895",
+    "description": "Carbon black"
+  },
+  {
+    "code": "2899",
+    "description": "Chemicals and chemical preparations, not elsewhere classified"
+  },
+  {
+    "code": "29",
+    "description": "Petroleum refining and related industries"
+  },
+  {
+    "code": "291",
+    "description": "Petroleum refining"
+  },
+  {
+    "code": "2911",
+    "description": "Petroleum refining"
+  },
+  {
+    "code": "295",
+    "description": "Asphalt paving and roofing materials"
+  },
+  {
+    "code": "2951",
+    "description": "Asphalt paving mixtures and blocks"
+  },
+  {
+    "code": "2952",
+    "description": "Asphalt felts and coatings"
+  },
+  {
+    "code": "299",
+    "description": "Miscellaneous products of petroleum and coal"
+  },
+  {
+    "code": "2992",
+    "description": "Lubricating oils and greases"
+  },
+  {
+    "code": "2999",
+    "description": "Products of petroleum and coal, not elsewhere classified"
+  },
+  {
+    "code": "30",
+    "description": "Rubber and miscellaneous plastics products"
+  },
+  {
+    "code": "301",
+    "description": "Tires and inner tubes"
+  },
+  {
+    "code": "3011",
+    "description": "Tires and inner tubes"
+  },
+  {
+    "code": "302",
+    "description": "Rubber and plastics footwear"
+  },
+  {
+    "code": "3021",
+    "description": "Rubber and plastics footwear"
+  },
+  {
+    "code": "305",
+    "description": "Gaskets, packing, and sealing devices and rubber and plastics hose"
+  },
+  {
+    "code": "3052",
+    "description": "Rubber and plastics hose and belting"
+  },
+  {
+    "code": "3053",
+    "description": "Gaskets, packing, and sealing devices"
+  },
+  {
+    "code": "306",
+    "description": "Fabricated rubber products, not elsewhere classified"
+  },
+  {
+    "code": "3061",
+    "description": "Molded, extruded, and lathe-cut mechanical rubber goods"
+  },
+  {
+    "code": "3069",
+    "description": "Fabricated rubber products, not elsewhere classified"
+  },
+  {
+    "code": "308",
+    "description": "Miscellaneous plastics products"
+  },
+  {
+    "code": "3081",
+    "description": "Unsupported plastics film and sheet"
+  },
+  {
+    "code": "3082",
+    "description": "Unsupported plastics profile shapes"
+  },
+  {
+    "code": "3083",
+    "description": "Laminated plastics plate, sheet, and profile shapes"
+  },
+  {
+    "code": "3084",
+    "description": "Plastics pipe"
+  },
+  {
+    "code": "3085",
+    "description": "Plastics bottles"
+  },
+  {
+    "code": "3086",
+    "description": "Plastics foam products"
+  },
+  {
+    "code": "3087",
+    "description": "Custom compounding of purchased plastics resins"
+  },
+  {
+    "code": "3088",
+    "description": "Plastics plumbing fixtures"
+  },
+  {
+    "code": "3089",
+    "description": "Plastics products, not elsewhere classified"
+  },
+  {
+    "code": "31",
+    "description": "Leather and leather products"
+  },
+  {
+    "code": "311",
+    "description": "Leather tanning and finishing"
+  },
+  {
+    "code": "3111",
+    "description": "Leather tanning and finishing"
+  },
+  {
+    "code": "313",
+    "description": "Boot and shoe cut stock and findings"
+  },
+  {
+    "code": "3131",
+    "description": "Boot and shoe cut stock and findings"
+  },
+  {
+    "code": "314",
+    "description": "Footwear, except rubber"
+  },
+  {
+    "code": "3142",
+    "description": "House slippers"
+  },
+  {
+    "code": "3143",
+    "description": "Men's footwear, except athletic"
+  },
+  {
+    "code": "3144",
+    "description": "Women's footwear, except athletic"
+  },
+  {
+    "code": "3149",
+    "description": "Footwear, except rubber, not elsewhere classified"
+  },
+  {
+    "code": "315",
+    "description": "Leather gloves and mittens"
+  },
+  {
+    "code": "3151",
+    "description": "Leather gloves and mittens"
+  },
+  {
+    "code": "316",
+    "description": "Luggage"
+  },
+  {
+    "code": "3161",
+    "description": "Luggage"
+  },
+  {
+    "code": "317",
+    "description": "Handbags and other personal leather goods"
+  },
+  {
+    "code": "3171",
+    "description": "Women's handbags and purses"
+  },
+  {
+    "code": "3172",
+    "description": "Personal leather goods, except women's handbags and purses"
+  },
+  {
+    "code": "319",
+    "description": "Leather goods, not elsewhere classified"
+  },
+  {
+    "code": "3199",
+    "description": "Leather goods, not elsewhere classified"
+  },
+  {
+    "code": "32",
+    "description": "Stone, clay, glass, and concrete products"
+  },
+  {
+    "code": "321",
+    "description": "Flat glass"
+  },
+  {
+    "code": "3211",
+    "description": "Flat glass"
+  },
+  {
+    "code": "322",
+    "description": "Glass and glassware, pressed or blown"
+  },
+  {
+    "code": "3221",
+    "description": "Glass containers"
+  },
+  {
+    "code": "3229",
+    "description": "Pressed and blown glass and glassware, not elsewhere classified"
+  },
+  {
+    "code": "323",
+    "description": "Glass products, made of purchased glass"
+  },
+  {
+    "code": "3231",
+    "description": "Glass products, made of purchased glass"
+  },
+  {
+    "code": "324",
+    "description": "Cement, hydraulic"
+  },
+  {
+    "code": "3241",
+    "description": "Cement, hydraulic"
+  },
+  {
+    "code": "325",
+    "description": "Structural clay products"
+  },
+  {
+    "code": "3251",
+    "description": "Brick and structural clay tile"
+  },
+  {
+    "code": "3253",
+    "description": "Ceramic wall and floor tile"
+  },
+  {
+    "code": "3255",
+    "description": "Clay refractories"
+  },
+  {
+    "code": "3259",
+    "description": "Structural clay products, not elsewhere classified"
+  },
+  {
+    "code": "326",
+    "description": "Pottery and related products"
+  },
+  {
+    "code": "3261",
+    "description": "Vitreous china plumbing fixtures and china and earthenware fittin"
+  },
+  {
+    "code": "3262",
+    "description": "Vitreous china table and kitchen articles"
+  },
+  {
+    "code": "3263",
+    "description": "Fine earthenware (whiteware) table and kitchen articles"
+  },
+  {
+    "code": "3264",
+    "description": "Porcelain electrical supplies"
+  },
+  {
+    "code": "3269",
+    "description": "Pottery products, not elsewhere classified"
+  },
+  {
+    "code": "327",
+    "description": "Concrete, gypsum, and plaster products"
+  },
+  {
+    "code": "3271",
+    "description": "Concrete block and brick"
+  },
+  {
+    "code": "3272",
+    "description": "Concrete products, except block and brick"
+  },
+  {
+    "code": "3273",
+    "description": "Ready-mixed concrete"
+  },
+  {
+    "code": "3274",
+    "description": "Lime"
+  },
+  {
+    "code": "3275",
+    "description": "Gypsum products"
+  },
+  {
+    "code": "328",
+    "description": "Cut stone and stone products"
+  },
+  {
+    "code": "3281",
+    "description": "Cut stone and stone products"
+  },
+  {
+    "code": "329",
+    "description": "Abrasive, asbestos, and miscellaneous nonmetallic mineral products"
+  },
+  {
+    "code": "3291",
+    "description": "Abrasive products"
+  },
+  {
+    "code": "3292",
+    "description": "Asbestos products"
+  },
+  {
+    "code": "3295",
+    "description": "Minerals and earths, ground or otherwise treated"
+  },
+  {
+    "code": "3296",
+    "description": "Mineral wool"
+  },
+  {
+    "code": "3297",
+    "description": "Nonclay refractories"
+  },
+  {
+    "code": "3299",
+    "description": "Nonmetallic mineral products, not elsewhere classified"
+  },
+  {
+    "code": "33",
+    "description": "Primary metal industries"
+  },
+  {
+    "code": "331",
+    "description": "Steel works, blast furnaces, and rolling and finishing mills"
+  },
+  {
+    "code": "3312",
+    "description": "Steel works, blast furnaces (including coke ovens), and rolling m"
+  },
+  {
+    "code": "3313",
+    "description": "Electrometallurgical products, except steel"
+  },
+  {
+    "code": "3315",
+    "description": "Steel wiredrawing and steel nails and spikes"
+  },
+  {
+    "code": "3316",
+    "description": "Cold-rolled steel sheet, strip, and bars"
+  },
+  {
+    "code": "3317",
+    "description": "Steel pipe and tubes"
+  },
+  {
+    "code": "332",
+    "description": "Iron and steel foundries"
+  },
+  {
+    "code": "3321",
+    "description": "Gray and ductile iron foundries"
+  },
+  {
+    "code": "3322",
+    "description": "Malleable iron foundries"
+  },
+  {
+    "code": "3324",
+    "description": "Steel investment foundries"
+  },
+  {
+    "code": "3325",
+    "description": "Steel foundries, not elsewhere classified"
+  },
+  {
+    "code": "333",
+    "description": "Primary smelting and refining of nonferrous metals"
+  },
+  {
+    "code": "3331",
+    "description": "Primary smelting and refining of copper"
+  },
+  {
+    "code": "3334",
+    "description": "Primary production of aluminum"
+  },
+  {
+    "code": "3339",
+    "description": "Primary smelting and refining of nonferrous metals, except copper"
+  },
+  {
+    "code": "334",
+    "description": "Secondary smelting and refining of nonferrous metals"
+  },
+  {
+    "code": "3341",
+    "description": "Secondary smelting and refining of nonferrous metals"
+  },
+  {
+    "code": "335",
+    "description": "Rolling, drawing, and extruding of nonferrous metals"
+  },
+  {
+    "code": "3351",
+    "description": "Rolling, drawing, and extruding of copper"
+  },
+  {
+    "code": "3353",
+    "description": "Aluminum sheet, plate, and foil"
+  },
+  {
+    "code": "3354",
+    "description": "Aluminum extruded products"
+  },
+  {
+    "code": "3355",
+    "description": "Aluminum rolling and drawing, not elsewhere classified"
+  },
+  {
+    "code": "3356",
+    "description": "Rolling, drawing, and extruding of nonferrous metals, except copp"
+  },
+  {
+    "code": "3357",
+    "description": "Drawing and insulating of nonferrous wire"
+  },
+  {
+    "code": "336",
+    "description": "Nonferrous foundries (castings)"
+  },
+  {
+    "code": "3363",
+    "description": "Aluminum die-castings"
+  },
+  {
+    "code": "3364",
+    "description": "Nonferrous die-castings, except aluminum"
+  },
+  {
+    "code": "3365",
+    "description": "Aluminum foundries"
+  },
+  {
+    "code": "3366",
+    "description": "Copper foundries"
+  },
+  {
+    "code": "3369",
+    "description": "Nonferrous foundries, except aluminum and copper"
+  },
+  {
+    "code": "339",
+    "description": "Miscellaneous primary metal products"
+  },
+  {
+    "code": "3398",
+    "description": "Metal heat treating"
+  },
+  {
+    "code": "3399",
+    "description": "Primary metal products, not elsewhere classified"
+  },
+  {
+    "code": "34",
+    "description": "Fabricated metal products, except machinery and transportation equipment"
+  },
+  {
+    "code": "341",
+    "description": "Metal cans and shipping containers"
+  },
+  {
+    "code": "3411",
+    "description": "Metal cans"
+  },
+  {
+    "code": "3412",
+    "description": "Metal shipping barrels, drums, kegs, and pails"
+  },
+  {
+    "code": "342",
+    "description": "Cutlery, handtools, and general hardware"
+  },
+  {
+    "code": "3421",
+    "description": "Cutlery"
+  },
+  {
+    "code": "3423",
+    "description": "Hand and edge tools, except machine tools and handsaws"
+  },
+  {
+    "code": "3425",
+    "description": "Saw blades and handsaws"
+  },
+  {
+    "code": "3429",
+    "description": "Hardware, not elsewhere classified"
+  },
+  {
+    "code": "3431",
+    "description": "Enameled iron and metal sanitary ware"
+  },
+  {
+    "code": "3432",
+    "description": "Plumbing fixture fittings and trim"
+  },
+  {
+    "code": "3433",
+    "description": "Heating equipment, except electric and warm air furnaces"
+  },
+  {
+    "code": "344",
+    "description": "Fabricated structural metal products"
+  },
+  {
+    "code": "3441",
+    "description": "Fabricated structural metal"
+  },
+  {
+    "code": "3442",
+    "description": "Metal doors, sash, frames, molding, and trim"
+  },
+  {
+    "code": "3443",
+    "description": "Fabricated plate work (boiler shops)"
+  },
+  {
+    "code": "3444",
+    "description": "Sheet metalwork"
+  },
+  {
+    "code": "3446",
+    "description": "Architectural and ornamental metalwork"
+  },
+  {
+    "code": "3448",
+    "description": "Prefabricated metal buildings and components"
+  },
+  {
+    "code": "3449",
+    "description": "Miscellaneous structural metalwork"
+  },
+  {
+    "code": "345",
+    "description": "Screw machine products, and bolts, nuts, screws, rivets, and washe"
+  },
+  {
+    "code": "3451",
+    "description": "Screw machine products"
+  },
+  {
+    "code": "3452",
+    "description": "Bolts, nuts, screws, rivets, and washers"
+  },
+  {
+    "code": "346",
+    "description": "Metal forgings and stampings"
+  },
+  {
+    "code": "3462",
+    "description": "Iron and steel forgings"
+  },
+  {
+    "code": "3463",
+    "description": "Nonferrous forgings"
+  },
+  {
+    "code": "3465",
+    "description": "Automotive stampings"
+  },
+  {
+    "code": "3466",
+    "description": "Crowns and closures"
+  },
+  {
+    "code": "3469",
+    "description": "Metal stampings, not elsewhere classified"
+  },
+  {
+    "code": "347",
+    "description": "Coating, engraving, and allied services"
+  },
+  {
+    "code": "3471",
+    "description": "Electroplating, plating, polishing, anodizing, and coloring"
+  },
+  {
+    "code": "3479",
+    "description": "Coating, engraving, and allied services, not elsewhere classified"
+  },
+  {
+    "code": "348",
+    "description": "Ordnance and accessories, except vehicles and guided missiles"
+  },
+  {
+    "code": "3482",
+    "description": "Small arms ammunition"
+  },
+  {
+    "code": "3483",
+    "description": "Ammunition, except for small arms"
+  },
+  {
+    "code": "3484",
+    "description": "Small arms"
+  },
+  {
+    "code": "3489",
+    "description": "Ordnance and accessories, not elsewhere classified"
+  },
+  {
+    "code": "349",
+    "description": "Miscellaneous fabricated metal products"
+  },
+  {
+    "code": "3491",
+    "description": "Industrial valves"
+  },
+  {
+    "code": "3492",
+    "description": "Fluid power valves and hose fittings"
+  },
+  {
+    "code": "3493",
+    "description": "Steel springs, except wire"
+  },
+  {
+    "code": "3494",
+    "description": "Valves and pipe fittings, not elsewhere classified"
+  },
+  {
+    "code": "3495",
+    "description": "Wire springs"
+  },
+  {
+    "code": "3496",
+    "description": "Miscellaneous fabricated wire products"
+  },
+  {
+    "code": "3497",
+    "description": "Metal foil and leaf"
+  },
+  {
+    "code": "3498",
+    "description": "Fabricated pipe and pipe fittings"
+  },
+  {
+    "code": "3499",
+    "description": "Fabricated metal products, not elsewhere classified"
+  },
+  {
+    "code": "35",
+    "description": "Industrial and commercial machinery and computer equipment"
+  },
+  {
+    "code": "351",
+    "description": "Engines and turbines"
+  },
+  {
+    "code": "3511",
+    "description": "Steam, gas, and hydraulic turbines, and turbine generator set uni"
+  },
+  {
+    "code": "3519",
+    "description": "Internal combustion engines, not elsewhere classified"
+  },
+  {
+    "code": "352",
+    "description": "Farm and garden machinery and equipment"
+  },
+  {
+    "code": "3523",
+    "description": "Farm machinery and equipment"
+  },
+  {
+    "code": "3524",
+    "description": "Lawn and garden tractors and home lawn and garden equipment"
+  },
+  {
+    "code": "353",
+    "description": "Construction, mining, and materials handling machinery and equipme"
+  },
+  {
+    "code": "3531",
+    "description": "Construction machinery and equipment"
+  },
+  {
+    "code": "3532",
+    "description": "Mining machinery and equipment, except oil and gas field machiner"
+  },
+  {
+    "code": "3533",
+    "description": "Oil and gas field machinery and equipment"
+  },
+  {
+    "code": "3534",
+    "description": "Elevators and moving stairways"
+  },
+  {
+    "code": "3535",
+    "description": "Conveyors and conveying equipment"
+  },
+  {
+    "code": "3536",
+    "description": "Overhead traveling cranes, hoists, and monorail systems"
+  },
+  {
+    "code": "3537",
+    "description": "Industrial trucks, tractors, trailers, and stackers"
+  },
+  {
+    "code": "354",
+    "description": "Metalworking machinery and equipment"
+  },
+  {
+    "code": "3541",
+    "description": "Machine tools, metal cutting types"
+  },
+  {
+    "code": "3542",
+    "description": "Machine tools, metal forming types"
+  },
+  {
+    "code": "3543",
+    "description": "Industrial patterns"
+  },
+  {
+    "code": "3544",
+    "description": "Special dies and tools, die sets, jigs and fixtures, and industri"
+  },
+  {
+    "code": "3545",
+    "description": "Cutting tools, machine tool accessories, and machinists' precisio"
+  },
+  {
+    "code": "3546",
+    "description": "Power-driven handtools"
+  },
+  {
+    "code": "3547",
+    "description": "Rolling mill machinery and equipment"
+  },
+  {
+    "code": "3548",
+    "description": "Electric and gas welding and soldering equipment"
+  },
+  {
+    "code": "3549",
+    "description": "Metalworking machinery, not elsewhere classified"
+  },
+  {
+    "code": "355",
+    "description": "Special industry machinery, except metalworking machinery"
+  },
+  {
+    "code": "3552",
+    "description": "Textile machinery"
+  },
+  {
+    "code": "3553",
+    "description": "Woodworking machinery"
+  },
+  {
+    "code": "3554",
+    "description": "Paper industries machinery"
+  },
+  {
+    "code": "3555",
+    "description": "Printing trades machinery and equipment"
+  },
+  {
+    "code": "3556",
+    "description": "Food products machinery"
+  },
+  {
+    "code": "3559",
+    "description": "Special industry machinery, not elsewhere classified"
+  },
+  {
+    "code": "356",
+    "description": "General industrial machinery and equipment"
+  },
+  {
+    "code": "3561",
+    "description": "Pumps and pumping equipment"
+  },
+  {
+    "code": "3562",
+    "description": "Ball and roller bearings"
+  },
+  {
+    "code": "3563",
+    "description": "Air and gas compressors"
+  },
+  {
+    "code": "3564",
+    "description": "Industrial and commercial fans and blowers and air purification e"
+  },
+  {
+    "code": "3565",
+    "description": "Packaging machinery"
+  },
+  {
+    "code": "3566",
+    "description": "Speed changers, industrial high-speed drives, and gears"
+  },
+  {
+    "code": "3567",
+    "description": "Industrial process furnaces and ovens"
+  },
+  {
+    "code": "3568",
+    "description": "Mechanical power transmission equipment, not elsewhere classified"
+  },
+  {
+    "code": "3569",
+    "description": "General industrial machinery and equipment, not elsewhere classif"
+  },
+  {
+    "code": "357",
+    "description": "Computer and office equipment"
+  },
+  {
+    "code": "3571",
+    "description": "Electronic computers"
+  },
+  {
+    "code": "3572",
+    "description": "Computer storage devices"
+  },
+  {
+    "code": "3575",
+    "description": "Computer terminals"
+  },
+  {
+    "code": "3577",
+    "description": "Computer peripheral equipment, not elsewhere classified"
+  },
+  {
+    "code": "3578",
+    "description": "Calculating and accounting machines, except electronic computers"
+  },
+  {
+    "code": "3579",
+    "description": "Office machines, not elsewhere classified"
+  },
+  {
+    "code": "358",
+    "description": "Refrigeration and service industry machinery"
+  },
+  {
+    "code": "3581",
+    "description": "Automatic vending machines"
+  },
+  {
+    "code": "3582",
+    "description": "Commercial laundry, drycleaning, and pressing machines"
+  },
+  {
+    "code": "3585",
+    "description": "Air-conditioning and warm air heating equipment and commercial an"
+  },
+  {
+    "code": "3586",
+    "description": "Measuring and dispensing pumps"
+  },
+  {
+    "code": "3589",
+    "description": "Service industry machinery, not elsewhere classified"
+  },
+  {
+    "code": "359",
+    "description": "Miscellaneous industrial and commercial machinery and equipment"
+  },
+  {
+    "code": "3592",
+    "description": "Carburetors, pistons, piston rings, and valves"
+  },
+  {
+    "code": "3593",
+    "description": "Fluid power cylinders and actuators"
+  },
+  {
+    "code": "3594",
+    "description": "Fluid power pumps and motors"
+  },
+  {
+    "code": "3596",
+    "description": "Scales and balances, except laboratory"
+  },
+  {
+    "code": "3599",
+    "description": "Industrial and commercial machinery and equipment, not elsewhere"
+  },
+  {
+    "code": "36",
+    "description": "Electronic and other electrical equipment and components, except computer"
+  },
+  {
+    "code": "361",
+    "description": "Electric transmission and distribution equipment"
+  },
+  {
+    "code": "3612",
+    "description": "Power, distribution, and specialty transformers"
+  },
+  {
+    "code": "3613",
+    "description": "Switchgear and switchboard apparatus"
+  },
+  {
+    "code": "362",
+    "description": "Electrical industrial apparatus"
+  },
+  {
+    "code": "3621",
+    "description": "Motors and generators"
+  },
+  {
+    "code": "3624",
+    "description": "Carbon and graphite products"
+  },
+  {
+    "code": "3625",
+    "description": "Relays and industrial controls"
+  },
+  {
+    "code": "3629",
+    "description": "Electrical industrial apparatus, not elsewhere classified"
+  },
+  {
+    "code": "363",
+    "description": "Household appliances"
+  },
+  {
+    "code": "3631",
+    "description": "Household cooking equipment"
+  },
+  {
+    "code": "3632",
+    "description": "Household refrigerators and home and farm freezers"
+  },
+  {
+    "code": "3633",
+    "description": "Household laundry equipment"
+  },
+  {
+    "code": "3634",
+    "description": "Electric housewares and fans"
+  },
+  {
+    "code": "3635",
+    "description": "Household vacuum cleaners"
+  },
+  {
+    "code": "3639",
+    "description": "Household appliances, not elsewhere classified"
+  },
+  {
+    "code": "364",
+    "description": "Electric lighting and wiring equipment"
+  },
+  {
+    "code": "3641",
+    "description": "Electric lamp bulbs and tubes"
+  },
+  {
+    "code": "3643",
+    "description": "Current-carrying wiring devices"
+  },
+  {
+    "code": "3644",
+    "description": "Noncurrent-carrying wiring devices"
+  },
+  {
+    "code": "3645",
+    "description": "Residential electric lighting fixtures"
+  },
+  {
+    "code": "3646",
+    "description": "Commercial, industrial, and institutional electric lighting fixtu"
+  },
+  {
+    "code": "3647",
+    "description": "Vehicular lighting equipment"
+  },
+  {
+    "code": "3648",
+    "description": "Lighting equipment, not elsewhere classified"
+  },
+  {
+    "code": "365",
+    "description": "Household audio and video equipment, and audio recordings"
+  },
+  {
+    "code": "3651",
+    "description": "Household audio and video equipment"
+  },
+  {
+    "code": "3652",
+    "description": "Phonograph records and prerecorded audio tapes and disks"
+  },
+  {
+    "code": "366",
+    "description": "Communications equipment"
+  },
+  {
+    "code": "3661",
+    "description": "Telephone and telegraph apparatus"
+  },
+  {
+    "code": "3663",
+    "description": "Radio and television broadcasting and communications equipment"
+  },
+  {
+    "code": "3669",
+    "description": "Communications equipment, not elsewhere classified"
+  },
+  {
+    "code": "367",
+    "description": "Electronic components and accessories"
+  },
+  {
+    "code": "3671",
+    "description": "Electron tubes"
+  },
+  {
+    "code": "3672",
+    "description": "Printed circuit boards"
+  },
+  {
+    "code": "3674",
+    "description": "Semiconductors and related devices"
+  },
+  {
+    "code": "3675",
+    "description": "Electronic capacitors"
+  },
+  {
+    "code": "3676",
+    "description": "Electronic resistors"
+  },
+  {
+    "code": "3677",
+    "description": "Electronic coils, transformers, and other inductors"
+  },
+  {
+    "code": "3678",
+    "description": "Electronic connectors"
+  },
+  {
+    "code": "3679",
+    "description": "Electronic components, not elsewhere classified"
+  },
+  {
+    "code": "369",
+    "description": "Miscellaneous electrical machinery, equipment, and supplies"
+  },
+  {
+    "code": "3691",
+    "description": "Storage batteries"
+  },
+  {
+    "code": "3692",
+    "description": "Primary batteries, dry and wet"
+  },
+  {
+    "code": "3694",
+    "description": "Electrical equipment for internal combustion engines"
+  },
+  {
+    "code": "3695",
+    "description": "Magnetic and optical recording media"
+  },
+  {
+    "code": "3699",
+    "description": "Electrical machinery, equipment, and supplies, not elsewhere clas"
+  },
+  {
+    "code": "37",
+    "description": "Transportation equipment"
+  },
+  {
+    "code": "371",
+    "description": "Motor vehicles and motor vehicle equipment"
+  },
+  {
+    "code": "3711",
+    "description": "Motor vehicles and passenger car bodies"
+  },
+  {
+    "code": "3713",
+    "description": "Truck and bus bodies"
+  },
+  {
+    "code": "3714",
+    "description": "Motor vehicle parts and accessories"
+  },
+  {
+    "code": "3715",
+    "description": "Truck trailers"
+  },
+  {
+    "code": "3716",
+    "description": "Motor homes"
+  },
+  {
+    "code": "372",
+    "description": "Aircraft and parts"
+  },
+  {
+    "code": "3721",
+    "description": "Aircraft"
+  },
+  {
+    "code": "3724",
+    "description": "Aircraft engines and engine parts"
+  },
+  {
+    "code": "3728",
+    "description": "Aircraft parts and auxiliary equipment, not elsewhere classified"
+  },
+  {
+    "code": "373",
+    "description": "Ship and boat building and repairing"
+  },
+  {
+    "code": "3731",
+    "description": "Ship building and repairing"
+  },
+  {
+    "code": "3732",
+    "description": "Boat building and repairing"
+  },
+  {
+    "code": "374",
+    "description": "Railroad equipment"
+  },
+  {
+    "code": "3743",
+    "description": "Railroad equipment"
+  },
+  {
+    "code": "375",
+    "description": "Motorcycles, bicycles, and parts"
+  },
+  {
+    "code": "3751",
+    "description": "Motorcycles, bicycles, and parts"
+  },
+  {
+    "code": "376",
+    "description": "Guided missiles and space vehicles and parts"
+  },
+  {
+    "code": "3761",
+    "description": "Guided missiles and space vehicles"
+  },
+  {
+    "code": "3764",
+    "description": "Guided missile and space vehicle propulsion units and propulsion"
+  },
+  {
+    "code": "3769",
+    "description": "Guided missile and space vehicle parts and auxiliary equipment, n"
+  },
+  {
+    "code": "379",
+    "description": "Miscellaneous transportation equipment"
+  },
+  {
+    "code": "3792",
+    "description": "Travel trailers and campers"
+  },
+  {
+    "code": "3795",
+    "description": "Tanks and tank components"
+  },
+  {
+    "code": "3799",
+    "description": "Transportation equipment, not elsewhere classified"
+  },
+  {
+    "code": "381",
+    "description": "Search, detection, navigation, guidance, aeronautical, and nautica"
+  },
+  {
+    "code": "3812",
+    "description": "Search, detection, navigation, guidance, aeronautical, and nautic"
+  },
+  {
+    "code": "382",
+    "description": "Laboratory apparatus and analytical, optical, measuring, and contr"
+  },
+  {
+    "code": "3821",
+    "description": "Laboratory apparatus and furniture"
+  },
+  {
+    "code": "3822",
+    "description": "Automatic controls for regulating residential and commercial envi"
+  },
+  {
+    "code": "3823",
+    "description": "Industrial instruments for measurement, display, and control of p"
+  },
+  {
+    "code": "3824",
+    "description": "Totalizing fluid meters and counting devices"
+  },
+  {
+    "code": "3825",
+    "description": "Instruments for measuring and testing of electricity and electric"
+  },
+  {
+    "code": "3826",
+    "description": "Laboratory analytical instruments"
+  },
+  {
+    "code": "3827",
+    "description": "Optical instruments and lenses"
+  },
+  {
+    "code": "3829",
+    "description": "Measuring and controlling devices, not elsewhere classified"
+  },
+  {
+    "code": "384",
+    "description": "Surgical, medical, and dental instruments and supplies"
+  },
+  {
+    "code": "3841",
+    "description": "Surgical and medical instruments and apparatus"
+  },
+  {
+    "code": "3842",
+    "description": "Orthopedic, prosthetic, and surgical appliances and supplies"
+  },
+  {
+    "code": "3843",
+    "description": "Dental equipment and supplies"
+  },
+  {
+    "code": "3844",
+    "description": "X-ray apparatus and tubes and related irradiation apparatus"
+  },
+  {
+    "code": "3845",
+    "description": "Electromedical and electrotherapeutic apparatus"
+  },
+  {
+    "code": "385",
+    "description": "Ophthalmic goods"
+  },
+  {
+    "code": "3851",
+    "description": "Ophthalmic goods"
+  },
+  {
+    "code": "386",
+    "description": "Photographic equipment and supplies"
+  },
+  {
+    "code": "3861",
+    "description": "Photographic equipment and supplies"
+  },
+  {
+    "code": "387",
+    "description": "Watches, clocks, clockwork operated devices, and parts"
+  },
+  {
+    "code": "3873",
+    "description": "Watches, clocks, clockwork operated devices, and parts"
+  },
+  {
+    "code": "39",
+    "description": "Miscellaneous manufacturing industries"
+  },
+  {
+    "code": "391",
+    "description": "Jewelry, silverware, and plated ware"
+  },
+  {
+    "code": "3911",
+    "description": "Jewelry, precious metal"
+  },
+  {
+    "code": "3914",
+    "description": "Silverware, plated ware, and stainless steel ware"
+  },
+  {
+    "code": "3915",
+    "description": "Jewelers' findings and materials, and lapidary work"
+  },
+  {
+    "code": "393",
+    "description": "Musical instruments"
+  },
+  {
+    "code": "3931",
+    "description": "Musical instruments"
+  },
+  {
+    "code": "394",
+    "description": "Dolls, toys, games and sporting and athletic goods"
+  },
+  {
+    "code": "3942",
+    "description": "Dolls and stuffed toys"
+  },
+  {
+    "code": "3944",
+    "description": "Games, toys, and children's vehicles, except dolls and bicycles"
+  },
+  {
+    "code": "3949",
+    "description": "Sporting and athletic goods, not elsewhere classified"
+  },
+  {
+    "code": "395",
+    "description": "Pens, pencils, and other artists' materials"
+  },
+  {
+    "code": "3951",
+    "description": "Pens, mechanical pencils, and parts"
+  },
+  {
+    "code": "3952",
+    "description": "Lead pencils, crayons, and artists' materials"
+  },
+  {
+    "code": "3953",
+    "description": "Marking devices"
+  },
+  {
+    "code": "3955",
+    "description": "Carbon paper and inked ribbons"
+  },
+  {
+    "code": "396",
+    "description": "Costume jewelry, costume novelties, buttons, and miscellaneous not"
+  },
+  {
+    "code": "3961",
+    "description": "Costume jewelry and costume novelties, except precious metal"
+  },
+  {
+    "code": "3965",
+    "description": "Fasteners, buttons, needles, and pins"
+  },
+  {
+    "code": "399",
+    "description": "Miscellaneous manufacturing industries"
+  },
+  {
+    "code": "3991",
+    "description": "Brooms and brushes"
+  },
+  {
+    "code": "3993",
+    "description": "Signs and advertising specialties"
+  },
+  {
+    "code": "3995",
+    "description": "Burial caskets"
+  },
+  {
+    "code": "3996",
+    "description": "Linoleum, asphalted-felt-base, and other hard surface floor cover"
+  },
+  {
+    "code": "3999",
+    "description": "Manufacturing industries, not elsewhere classified"
+  },
+  {
+    "code": "40",
+    "description": "Railroad transportation"
+  },
+  {
+    "code": "401",
+    "description": "Railroads"
+  },
+  {
+    "code": "4011",
+    "description": "Railroads, line-haul operating"
+  },
+  {
+    "code": "4013",
+    "description": "Railroad switching and terminal establishments"
+  },
+  {
+    "code": "41",
+    "description": "Local and suburban transit and interurban highway passenger transportation"
+  },
+  {
+    "code": "411",
+    "description": "Local and suburban passenger transportation"
+  },
+  {
+    "code": "4111",
+    "description": "Local and suburban transit"
+  },
+  {
+    "code": "4119",
+    "description": "Local passenger transportation, not elsewhere classified"
+  },
+  {
+    "code": "412",
+    "description": "Taxicabs"
+  },
+  {
+    "code": "4121",
+    "description": "Taxicabs"
+  },
+  {
+    "code": "413",
+    "description": "Intercity and rural bus transportation"
+  },
+  {
+    "code": "4131",
+    "description": "Intercity and rural bus transportation"
+  },
+  {
+    "code": "414",
+    "description": "Bus charter service"
+  },
+  {
+    "code": "4141",
+    "description": "Local bus charter service"
+  },
+  {
+    "code": "4142",
+    "description": "Bus charter service, except local"
+  },
+  {
+    "code": "415",
+    "description": "School buses"
+  },
+  {
+    "code": "4151",
+    "description": "School buses"
+  },
+  {
+    "code": "417",
+    "description": "Terminal and service facilities for motor vehicle passenger transp"
+  },
+  {
+    "code": "4173",
+    "description": "Terminal and service facilities for motor vehicle passenger trans"
+  },
+  {
+    "code": "42",
+    "description": "Motor freight transportation and warehousing"
+  },
+  {
+    "code": "421",
+    "description": "Trucking and courier services, except air"
+  },
+  {
+    "code": "4212",
+    "description": "Local trucking without storage"
+  },
+  {
+    "code": "4213",
+    "description": "Trucking, except local"
+  },
+  {
+    "code": "4214",
+    "description": "Local trucking with storage"
+  },
+  {
+    "code": "4215",
+    "description": "Courier services, except by air"
+  },
+  {
+    "code": "422",
+    "description": "Public warehousing and storage"
+  },
+  {
+    "code": "4221",
+    "description": "Farm product warehousing and storage"
+  },
+  {
+    "code": "4222",
+    "description": "Refrigerated warehousing and storage"
+  },
+  {
+    "code": "4225",
+    "description": "General warehousing and storage"
+  },
+  {
+    "code": "4226",
+    "description": "Special warehousing and storage, not elsewhere classified"
+  },
+  {
+    "code": "423",
+    "description": "Terminal and joint terminal maintenance facilities for motor freig"
+  },
+  {
+    "code": "4231",
+    "description": "Terminal and joint terminal maintenance facilities for motor frei"
+  },
+  {
+    "code": "43",
+    "description": "United states postal service"
+  },
+  {
+    "code": "431",
+    "description": "United states postal service"
+  },
+  {
+    "code": "4311",
+    "description": "United states postal service"
+  },
+  {
+    "code": "44",
+    "description": "Water transportation"
+  },
+  {
+    "code": "441",
+    "description": "Deep sea foreign transportation of freight"
+  },
+  {
+    "code": "4412",
+    "description": "Deep sea foreign transportation of freight"
+  },
+  {
+    "code": "442",
+    "description": "Deep sea domestic transportation of freight"
+  },
+  {
+    "code": "4424",
+    "description": "Deep sea domestic transportation of freight"
+  },
+  {
+    "code": "444",
+    "description": "Water transportation of freight, not elsewhere classified"
+  },
+  {
+    "code": "4449",
+    "description": "Water transportation of freight, not elsewhere classified"
+  },
+  {
+    "code": "448",
+    "description": "Water transportation of passengers"
+  },
+  {
+    "code": "4481",
+    "description": "Deep sea transportation of passengers, except by ferry"
+  },
+  {
+    "code": "4482",
+    "description": "Ferries"
+  },
+  {
+    "code": "4489",
+    "description": "Water transportation of passengers, not elsewhere classified"
+  },
+  {
+    "code": "449",
+    "description": "Services incidental to water transportation"
+  },
+  {
+    "code": "4491",
+    "description": "Marine cargo handling"
+  },
+  {
+    "code": "4492",
+    "description": "Towing and tugboat services"
+  },
+  {
+    "code": "4493",
+    "description": "Marinas"
+  },
+  {
+    "code": "4499",
+    "description": "Water transportation services, not elsewhere classified"
+  },
+  {
+    "code": "45",
+    "description": "Transportation by air"
+  },
+  {
+    "code": "451",
+    "description": "Air transportation, scheduled, and air courier services"
+  },
+  {
+    "code": "4512",
+    "description": "Air transportation, scheduled"
+  },
+  {
+    "code": "4513",
+    "description": "Air courier services"
+  },
+  {
+    "code": "452",
+    "description": "Air transportation, nonscheduled"
+  },
+  {
+    "code": "4522",
+    "description": "Air transportation, nonscheduled"
+  },
+  {
+    "code": "458",
+    "description": "Airports, flying fields, and airport terminal services"
+  },
+  {
+    "code": "4581",
+    "description": "Airports, flying fields, and airport terminal services"
+  },
+  {
+    "code": "46",
+    "description": "Pipelines, except natural gas"
+  },
+  {
+    "code": "461",
+    "description": "Pipelines, except natural gas"
+  },
+  {
+    "code": "4612",
+    "description": "Crude petroleum pipelines"
+  },
+  {
+    "code": "4613",
+    "description": "Refined petroleum pipelines"
+  },
+  {
+    "code": "4619",
+    "description": "Pipelines, not elsewhere classified"
+  },
+  {
+    "code": "47",
+    "description": "Transportation services"
+  },
+  {
+    "code": "472",
+    "description": "Arrangement of passenger transportation"
+  },
+  {
+    "code": "4724",
+    "description": "Travel agencies"
+  },
+  {
+    "code": "4725",
+    "description": "Tour operators"
+  },
+  {
+    "code": "4729",
+    "description": "Arrangement of passenger transportation, not elsewhere classified"
+  },
+  {
+    "code": "473",
+    "description": "Arrangement of transportation of freight and cargo"
+  },
+  {
+    "code": "4731",
+    "description": "Arrangement of transportation of freight and cargo"
+  },
+  {
+    "code": "474",
+    "description": "Rental of railroad cars"
+  },
+  {
+    "code": "4741",
+    "description": "Rental of railroad cars"
+  },
+  {
+    "code": "478",
+    "description": "Miscellaneous services incidental to transportation"
+  },
+  {
+    "code": "4783",
+    "description": "Packing and crating"
+  },
+  {
+    "code": "4785",
+    "description": "Fixed facilities and inspection and weighing services for motor v"
+  },
+  {
+    "code": "4789",
+    "description": "Transportation services, not elsewhere classified"
+  },
+  {
+    "code": "48",
+    "description": "Communications"
+  },
+  {
+    "code": "481",
+    "description": "Telephone communications"
+  },
+  {
+    "code": "4812",
+    "description": "Radiotelephone communications"
+  },
+  {
+    "code": "4813",
+    "description": "Telephone communications, except radiotelephone"
+  },
+  {
+    "code": "482",
+    "description": "Telegraph and other message communications"
+  },
+  {
+    "code": "4822",
+    "description": "Telegraph and other message communications"
+  },
+  {
+    "code": "483",
+    "description": "Radio and television broadcasting stations"
+  },
+  {
+    "code": "4832",
+    "description": "Radio broadcasting stations"
+  },
+  {
+    "code": "4833",
+    "description": "Television broadcasting stations"
+  },
+  {
+    "code": "484",
+    "description": "Cable and other pay television services"
+  },
+  {
+    "code": "4841",
+    "description": "Cable and other pay television services"
+  },
+  {
+    "code": "489",
+    "description": "Communications services, not elsewhere classified"
+  },
+  {
+    "code": "4899",
+    "description": "Communications services, not elsewhere classified"
+  },
+  {
+    "code": "49",
+    "description": "Electric, gas, and sanitary services"
+  },
+  {
+    "code": "491",
+    "description": "Electric services"
+  },
+  {
+    "code": "4911",
+    "description": "Electric services"
+  },
+  {
+    "code": "492",
+    "description": "Gas production and distribution"
+  },
+  {
+    "code": "4922",
+    "description": "Natural gas transmission"
+  },
+  {
+    "code": "4923",
+    "description": "Natural gas transmission and distribution"
+  },
+  {
+    "code": "4924",
+    "description": "Natural gas distribution"
+  },
+  {
+    "code": "4925",
+    "description": "Mixed, manufactured, or liquefied petroleum gas production and/or"
+  },
+  {
+    "code": "493",
+    "description": "Combination electric and gas, and other utility services"
+  },
+  {
+    "code": "4931",
+    "description": "Electric and other services combined"
+  },
+  {
+    "code": "4932",
+    "description": "Gas and other services combined"
+  },
+  {
+    "code": "4939",
+    "description": "Combination utilities, not elsewhere classified"
+  },
+  {
+    "code": "494",
+    "description": "Water supply"
+  },
+  {
+    "code": "4941",
+    "description": "Water supply"
+  },
+  {
+    "code": "495",
+    "description": "Sanitary services"
+  },
+  {
+    "code": "4952",
+    "description": "Sewerage systems"
+  },
+  {
+    "code": "4953",
+    "description": "Refuse systems"
+  },
+  {
+    "code": "4959",
+    "description": "Sanitary services, not elsewhere classified"
+  },
+  {
+    "code": "496",
+    "description": "Steam and air-conditioning supply"
+  },
+  {
+    "code": "4961",
+    "description": "Steam and air-conditioning supply"
+  },
+  {
+    "code": "497",
+    "description": "Irrigation systems"
+  },
+  {
+    "code": "4971",
+    "description": "Irrigation systems"
+  },
+  {
+    "code": "501",
+    "description": "Motor vehicles and motor vehicle parts and supplies"
+  },
+  {
+    "code": "5012",
+    "description": "Automobiles and other motor vehicles"
+  },
+  {
+    "code": "5013",
+    "description": "Motor vehicle supplies and new parts"
+  },
+  {
+    "code": "5014",
+    "description": "Tires and tubes"
+  },
+  {
+    "code": "5015",
+    "description": "Motor vehicle parts, used"
+  },
+  {
+    "code": "502",
+    "description": "Furniture and homefurnishings"
+  },
+  {
+    "code": "5021",
+    "description": "Furniture"
+  },
+  {
+    "code": "5023",
+    "description": "Homefurnishings"
+  },
+  {
+    "code": "503",
+    "description": "Lumber and other construction materials"
+  },
+  {
+    "code": "5031",
+    "description": "Lumber, plywood, millwork, and wood panels"
+  },
+  {
+    "code": "5032",
+    "description": "Brick, stone, and related construction materials"
+  },
+  {
+    "code": "5033",
+    "description": "Roofing, siding, and insulation materials"
+  },
+  {
+    "code": "5039",
+    "description": "Construction materials, not elsewhere classified"
+  },
+  {
+    "code": "504",
+    "description": "Professional and commercial equipment and supplies"
+  },
+  {
+    "code": "5043",
+    "description": "Photographic equipment and supplies"
+  },
+  {
+    "code": "5044",
+    "description": "Office equipment"
+  },
+  {
+    "code": "5045",
+    "description": "Computers and computer peripheral equipment and software"
+  },
+  {
+    "code": "5046",
+    "description": "Commercial equipment, not elsewhere classified"
+  },
+  {
+    "code": "5047",
+    "description": "Medical, dental, and hospital equipment and supplies"
+  },
+  {
+    "code": "5048",
+    "description": "Ophthalmic goods"
+  },
+  {
+    "code": "5049",
+    "description": "Professional equipment and supplies, not elsewhere classified"
+  },
+  {
+    "code": "505",
+    "description": "Metals and minerals, except petroleum"
+  },
+  {
+    "code": "5051",
+    "description": "Metals service centers and offices"
+  },
+  {
+    "code": "5052",
+    "description": "Coal and other minerals and ores"
+  },
+  {
+    "code": "506",
+    "description": "Electrical goods"
+  },
+  {
+    "code": "5063",
+    "description": "Electrical apparatus and equipment, wiring supplies, and construc"
+  },
+  {
+    "code": "5064",
+    "description": "Electrical appliances, television and radio sets"
+  },
+  {
+    "code": "5065",
+    "description": "Electronic parts and equipment, not elsewhere classified"
+  },
+  {
+    "code": "507",
+    "description": "Hardware, and plumbing and heating equipment and supplies"
+  },
+  {
+    "code": "5072",
+    "description": "Hardware"
+  },
+  {
+    "code": "5074",
+    "description": "Plumbing and heating equipment and supplies (hydronics)"
+  },
+  {
+    "code": "5075",
+    "description": "Warm air heating and air-conditioning equipment and supplies"
+  },
+  {
+    "code": "5078",
+    "description": "Refrigeration equipment and supplies"
+  },
+  {
+    "code": "508",
+    "description": "Machinery, equipment, and supplies"
+  },
+  {
+    "code": "5082",
+    "description": "Construction and mining (except petroleum) machinery and equipmen"
+  },
+  {
+    "code": "5083",
+    "description": "Farm and garden machinery and equipment"
+  },
+  {
+    "code": "5084",
+    "description": "Industrial machinery and equipment"
+  },
+  {
+    "code": "5085",
+    "description": "Industrial supplies"
+  },
+  {
+    "code": "5087",
+    "description": "Service establishment equipment and supplies"
+  },
+  {
+    "code": "5088",
+    "description": "Transportation equipment and supplies, except motor vehicles"
+  },
+  {
+    "code": "509",
+    "description": "Miscellaneous durable goods"
+  },
+  {
+    "code": "5091",
+    "description": "Sporting and recreational goods and supplies"
+  },
+  {
+    "code": "5092",
+    "description": "Toys and hobby goods and supplies"
+  },
+  {
+    "code": "5093",
+    "description": "Scrap and waste materials"
+  },
+  {
+    "code": "5094",
+    "description": "Jewelry, watches, precious stones, and precious metals"
+  },
+  {
+    "code": "5099",
+    "description": "Durable goods, not elsewhere classified"
+  },
+  {
+    "code": "511",
+    "description": "Paper and paper products"
+  },
+  {
+    "code": "5111",
+    "description": "Printing and writing paper"
+  },
+  {
+    "code": "5112",
+    "description": "Stationery and office supplies"
+  },
+  {
+    "code": "5113",
+    "description": "Industrial and personal service paper"
+  },
+  {
+    "code": "512",
+    "description": "Drugs, drug proprietaries, and druggists' sundries"
+  },
+  {
+    "code": "5122",
+    "description": "Drugs, drug proprietaries, and druggists' sundries"
+  },
+  {
+    "code": "513",
+    "description": "Apparel, piece goods, and notions"
+  },
+  {
+    "code": "5131",
+    "description": "Piece goods, notions, and other dry goods"
+  },
+  {
+    "code": "5136",
+    "description": "Men's and boys' clothing and furnishings"
+  },
+  {
+    "code": "5137",
+    "description": "Women's, children's, and infants' clothing and accessories"
+  },
+  {
+    "code": "5139",
+    "description": "Footwear"
+  },
+  {
+    "code": "514",
+    "description": "Groceries and related products"
+  },
+  {
+    "code": "5141",
+    "description": "Groceries, general line"
+  },
+  {
+    "code": "5142",
+    "description": "Packaged frozen foods"
+  },
+  {
+    "code": "5143",
+    "description": "Dairy products, except dried or canned"
+  },
+  {
+    "code": "5144",
+    "description": "Poultry and poultry products"
+  },
+  {
+    "code": "5145",
+    "description": "Confectionery"
+  },
+  {
+    "code": "5146",
+    "description": "Fish and seafoods"
+  },
+  {
+    "code": "5147",
+    "description": "Meats and meat products"
+  },
+  {
+    "code": "5148",
+    "description": "Fresh fruits and vegetables"
+  },
+  {
+    "code": "5149",
+    "description": "Groceries and related products, not elsewhere classified"
+  },
+  {
+    "code": "515",
+    "description": "Farm-product raw materials"
+  },
+  {
+    "code": "5153",
+    "description": "Grain and field beans"
+  },
+  {
+    "code": "5154",
+    "description": "Livestock"
+  },
+  {
+    "code": "5159",
+    "description": "Farm-product raw materials, not elsewhere classified"
+  },
+  {
+    "code": "516",
+    "description": "Chemicals and allied products"
+  },
+  {
+    "code": "5162",
+    "description": "Plastics materials and basic forms and shapes"
+  },
+  {
+    "code": "5169",
+    "description": "Chemicals and allied products, not elsewhere classified"
+  },
+  {
+    "code": "517",
+    "description": "Petroleum and petroleum products"
+  },
+  {
+    "code": "5171",
+    "description": "Petroleum bulk stations and terminals"
+  },
+  {
+    "code": "5172",
+    "description": "Petroleum and petroleum products wholesalers, except bulk station"
+  },
+  {
+    "code": "518",
+    "description": "Beer, wine, and distilled alcoholic beverages"
+  },
+  {
+    "code": "5181",
+    "description": "Beer and ale"
+  },
+  {
+    "code": "5182",
+    "description": "Wine and distilled alcoholic beverages"
+  },
+  {
+    "code": "519",
+    "description": "Miscellaneous nondurable goods"
+  },
+  {
+    "code": "5191",
+    "description": "Farm supplies"
+  },
+  {
+    "code": "5192",
+    "description": "Books, periodicals, and newspapers"
+  },
+  {
+    "code": "5193",
+    "description": "Flowers, nursery stock, and florists' supplies"
+  },
+  {
+    "code": "5194",
+    "description": "Tobacco and tobacco products"
+  },
+  {
+    "code": "5198",
+    "description": "Paints, varnishes, and supplies"
+  },
+  {
+    "code": "5199",
+    "description": "Nondurable goods, not elsewhere classified"
+  },
+  {
+    "code": "52",
+    "description": "Building materials, hardware, garden supply, and mobile home dealers"
+  },
+  {
+    "code": "521",
+    "description": "Lumber and other building materials dealers"
+  },
+  {
+    "code": "5211",
+    "description": "Lumber and other building materials dealers"
+  },
+  {
+    "code": "523",
+    "description": "Paint, glass, and wallpaper stores"
+  },
+  {
+    "code": "5231",
+    "description": "Paint, glass, and wallpaper stores"
+  },
+  {
+    "code": "525",
+    "description": "Hardware stores"
+  },
+  {
+    "code": "5251",
+    "description": "Hardware stores"
+  },
+  {
+    "code": "526",
+    "description": "Retail nurseries, lawn and garden supply stores"
+  },
+  {
+    "code": "5261",
+    "description": "Retail nurseries, lawn and garden supply stores"
+  },
+  {
+    "code": "527",
+    "description": "Mobile home dealers"
+  },
+  {
+    "code": "5271",
+    "description": "Mobile home dealers"
+  },
+  {
+    "code": "53",
+    "description": "General merchandise stores"
+  },
+  {
+    "code": "531",
+    "description": "Department stores"
+  },
+  {
+    "code": "5311",
+    "description": "Department stores"
+  },
+  {
+    "code": "533",
+    "description": "Variety stores"
+  },
+  {
+    "code": "5331",
+    "description": "Variety stores"
+  },
+  {
+    "code": "539",
+    "description": "Miscellaneous general merchandise stores"
+  },
+  {
+    "code": "5399",
+    "description": "Miscellaneous general merchandise stores"
+  },
+  {
+    "code": "54",
+    "description": "Food stores"
+  },
+  {
+    "code": "541",
+    "description": "Grocery stores"
+  },
+  {
+    "code": "5411",
+    "description": "Grocery stores"
+  },
+  {
+    "code": "542",
+    "description": "Meat and fish (seafood) markets, including freezer provisioners"
+  },
+  {
+    "code": "5421",
+    "description": "Meat and fish (seafood) markets, including freezer provisioners"
+  },
+  {
+    "code": "543",
+    "description": "Fruit and vegetable markets"
+  },
+  {
+    "code": "5431",
+    "description": "Fruit and vegetable markets"
+  },
+  {
+    "code": "544",
+    "description": "Candy, nut, and confectionery stores"
+  },
+  {
+    "code": "5441",
+    "description": "Candy, nut, and confectionery stores"
+  },
+  {
+    "code": "545",
+    "description": "Dairy products stores"
+  },
+  {
+    "code": "5451",
+    "description": "Dairy products stores"
+  },
+  {
+    "code": "546",
+    "description": "Retail bakeries"
+  },
+  {
+    "code": "5461",
+    "description": "Retail bakeries"
+  },
+  {
+    "code": "549",
+    "description": "Miscellaneous food stores"
+  },
+  {
+    "code": "5499",
+    "description": "Miscellaneous food stores"
+  },
+  {
+    "code": "55",
+    "description": "Automotive dealers and gasoline service stations"
+  },
+  {
+    "code": "551",
+    "description": "Motor vehicle dealers (new and used)"
+  },
+  {
+    "code": "5511",
+    "description": "Motor vehicle dealers (new and used)"
+  },
+  {
+    "code": "552",
+    "description": "Motor vehicle dealers (used only)"
+  },
+  {
+    "code": "5521",
+    "description": "Motor vehicle dealers (used only)"
+  },
+  {
+    "code": "553",
+    "description": "Auto and home supply stores"
+  },
+  {
+    "code": "5531",
+    "description": "Auto and home supply stores"
+  },
+  {
+    "code": "554",
+    "description": "Gasoline service stations"
+  },
+  {
+    "code": "5541",
+    "description": "Gasoline service stations"
+  },
+  {
+    "code": "555",
+    "description": "Boat dealers"
+  },
+  {
+    "code": "5551",
+    "description": "Boat dealers"
+  },
+  {
+    "code": "556",
+    "description": "Recreational vehicle dealers"
+  },
+  {
+    "code": "5561",
+    "description": "Recreational vehicle dealers"
+  },
+  {
+    "code": "557",
+    "description": "Motorcycle dealers"
+  },
+  {
+    "code": "5571",
+    "description": "Motorcycle dealers"
+  },
+  {
+    "code": "559",
+    "description": "Automotive dealers, not elsewhere classified"
+  },
+  {
+    "code": "5599",
+    "description": "Automotive dealers, not elsewhere classified"
+  },
+  {
+    "code": "56",
+    "description": "Apparel and accessory stores"
+  },
+  {
+    "code": "561",
+    "description": "Men's and boys' clothing and accessory stores"
+  },
+  {
+    "code": "5611",
+    "description": "Men's and boys' clothing and accessory stores"
+  },
+  {
+    "code": "562",
+    "description": "Women's clothing stores"
+  },
+  {
+    "code": "5621",
+    "description": "Women's clothing stores"
+  },
+  {
+    "code": "563",
+    "description": "Women's accessory and specialty stores"
+  },
+  {
+    "code": "5632",
+    "description": "Women's accessory and specialty stores"
+  },
+  {
+    "code": "564",
+    "description": "Children's and infants' wear stores"
+  },
+  {
+    "code": "5641",
+    "description": "Children's and infants' wear stores"
+  },
+  {
+    "code": "565",
+    "description": "Family clothing stores"
+  },
+  {
+    "code": "5651",
+    "description": "Family clothing stores"
+  },
+  {
+    "code": "566",
+    "description": "Shoe stores"
+  },
+  {
+    "code": "5661",
+    "description": "Shoe stores"
+  },
+  {
+    "code": "569",
+    "description": "Miscellaneous apparel and accessory stores"
+  },
+  {
+    "code": "5699",
+    "description": "Miscellaneous apparel and accessory stores"
+  },
+  {
+    "code": "57",
+    "description": "Home furniture, furnishings, and equipment stores"
+  },
+  {
+    "code": "571",
+    "description": "Home furniture and furnishings stores"
+  },
+  {
+    "code": "5712",
+    "description": "Furniture stores"
+  },
+  {
+    "code": "5713",
+    "description": "Floor covering stores"
+  },
+  {
+    "code": "5714",
+    "description": "Drapery, curtain, and upholstery stores"
+  },
+  {
+    "code": "5719",
+    "description": "Miscellaneous homefurnishings stores"
+  },
+  {
+    "code": "572",
+    "description": "Household appliance stores"
+  },
+  {
+    "code": "5722",
+    "description": "Household appliance stores"
+  },
+  {
+    "code": "573",
+    "description": "Radio, television, consumer electronics, and music stores"
+  },
+  {
+    "code": "5731",
+    "description": "Radio, television, and consumer electronics stores"
+  },
+  {
+    "code": "5734",
+    "description": "Computer and computer software stores"
+  },
+  {
+    "code": "5735",
+    "description": "Record and prerecorded tape stores"
+  },
+  {
+    "code": "5736",
+    "description": "Musical instrument stores"
+  },
+  {
+    "code": "58",
+    "description": "Eating and drinking places"
+  },
+  {
+    "code": "581",
+    "description": "Eating and drinking places"
+  },
+  {
+    "code": "5812",
+    "description": "Eating places"
+  },
+  {
+    "code": "5813",
+    "description": "Drinking places (alcoholic beverages)"
+  },
+  {
+    "code": "59",
+    "description": "Miscellaneous retail"
+  },
+  {
+    "code": "591",
+    "description": "Drug stores and proprietary stores"
+  },
+  {
+    "code": "5912",
+    "description": "Drug stores and proprietary stores"
+  },
+  {
+    "code": "592",
+    "description": "Liquor stores"
+  },
+  {
+    "code": "5921",
+    "description": "Liquor stores"
+  },
+  {
+    "code": "593",
+    "description": "Used merchandise stores"
+  },
+  {
+    "code": "5932",
+    "description": "Used merchandise stores"
+  },
+  {
+    "code": "594",
+    "description": "Miscellaneous shopping goods stores"
+  },
+  {
+    "code": "5941",
+    "description": "Sporting goods stores and bicycle shops"
+  },
+  {
+    "code": "5942",
+    "description": "Book stores"
+  },
+  {
+    "code": "5943",
+    "description": "Stationery stores"
+  },
+  {
+    "code": "5944",
+    "description": "Jewelry stores"
+  },
+  {
+    "code": "5945",
+    "description": "Hobby, toy, and game shops"
+  },
+  {
+    "code": "5946",
+    "description": "Camera and photographic supply stores"
+  },
+  {
+    "code": "5947",
+    "description": "Gift, novelty, and souvenir shops"
+  },
+  {
+    "code": "5948",
+    "description": "Luggage and leather goods stores"
+  },
+  {
+    "code": "5949",
+    "description": "Sewing, needlework, and piece goods stores"
+  },
+  {
+    "code": "596",
+    "description": "Nonstore retailers"
+  },
+  {
+    "code": "5961",
+    "description": "Catalog and mail-order houses"
+  },
+  {
+    "code": "5962",
+    "description": "Automatic merchandising machine operators"
+  },
+  {
+    "code": "5963",
+    "description": "Direct selling establishments"
+  },
+  {
+    "code": "598",
+    "description": "Fuel dealers"
+  },
+  {
+    "code": "5983",
+    "description": "Fuel oil dealers"
+  },
+  {
+    "code": "5984",
+    "description": "Liquefied petroleum gas (bottled gas) dealers"
+  },
+  {
+    "code": "5989",
+    "description": "Fuel dealers, not elsewhere classified"
+  },
+  {
+    "code": "599",
+    "description": "Retail stores, not elsewhere classified"
+  },
+  {
+    "code": "5992",
+    "description": "Florists"
+  },
+  {
+    "code": "5993",
+    "description": "Tobacco stores and stands"
+  },
+  {
+    "code": "5994",
+    "description": "News dealers and newsstands"
+  },
+  {
+    "code": "5995",
+    "description": "Optical goods stores"
+  },
+  {
+    "code": "5999",
+    "description": "Miscellaneous retail stores, not elsewhere classified"
+  },
+  {
+    "code": "60",
+    "description": "Depository institutions"
+  },
+  {
+    "code": "601",
+    "description": "Central reserve depository institutions"
+  },
+  {
+    "code": "6011",
+    "description": "Federal reserve banks"
+  },
+  {
+    "code": "6019",
+    "description": "Central reserve depository institutions, not elsewhere classified"
+  },
+  {
+    "code": "602",
+    "description": "Commercial banks"
+  },
+  {
+    "code": "6021",
+    "description": "National commercial banks"
+  },
+  {
+    "code": "6022",
+    "description": "State commercial banks"
+  },
+  {
+    "code": "6029",
+    "description": "Commercial banks, not elsewhere classified"
+  },
+  {
+    "code": "603",
+    "description": "Savings institutions"
+  },
+  {
+    "code": "6035",
+    "description": "Savings institutions, federally chartered"
+  },
+  {
+    "code": "6036",
+    "description": "Savings institutions, not federally chartered"
+  },
+  {
+    "code": "606",
+    "description": "Credit unions"
+  },
+  {
+    "code": "6061",
+    "description": "Credit unions, federally chartered"
+  },
+  {
+    "code": "6062",
+    "description": "Credit unions, not federally chartered"
+  },
+  {
+    "code": "608",
+    "description": "Foreign banking and branches and agencies of foreign banks"
+  },
+  {
+    "code": "6081",
+    "description": "Branches and agencies of foreign banks"
+  },
+  {
+    "code": "6082",
+    "description": "Foreign trade and international banking institutions"
+  },
+  {
+    "code": "609",
+    "description": "Functions related to depository banking"
+  },
+  {
+    "code": "6091",
+    "description": "Nondeposit trust facilities"
+  },
+  {
+    "code": "6099",
+    "description": "Functions related to depository banking, not elsewhere classified"
+  },
+  {
+    "code": "61",
+    "description": "Nondepository credit institutions"
+  },
+  {
+    "code": "611",
+    "description": "Federal and federally-sponsored credit agencies"
+  },
+  {
+    "code": "6111",
+    "description": "Federal and federally-sponsored credit agencies"
+  },
+  {
+    "code": "614",
+    "description": "Personal credit institutions"
+  },
+  {
+    "code": "6141",
+    "description": "Personal credit institutions"
+  },
+  {
+    "code": "615",
+    "description": "Business credit institutions"
+  },
+  {
+    "code": "6153",
+    "description": "Short-term business credit institutions, except agricultural"
+  },
+  {
+    "code": "6159",
+    "description": "Miscellaneous business credit institutions"
+  },
+  {
+    "code": "616",
+    "description": "Mortgage bankers and brokers"
+  },
+  {
+    "code": "6162",
+    "description": "Mortgage bankers and loan correspondents"
+  },
+  {
+    "code": "6163",
+    "description": "Loan brokers"
+  },
+  {
+    "code": "62",
+    "description": "Security and commodity brokers, dealers, exchanges, and services"
+  },
+  {
+    "code": "621",
+    "description": "Security brokers, dealers, and flotation companies"
+  },
+  {
+    "code": "6211",
+    "description": "Security brokers, dealers, and flotation companies"
+  },
+  {
+    "code": "622",
+    "description": "Commodity contracts brokers and dealers"
+  },
+  {
+    "code": "6221",
+    "description": "Commodity contracts brokers and dealers"
+  },
+  {
+    "code": "623",
+    "description": "Security and commodity exchanges"
+  },
+  {
+    "code": "6231",
+    "description": "Security and commodity exchanges"
+  },
+  {
+    "code": "628",
+    "description": "Services allied with the exchange of securities or commodities"
+  },
+  {
+    "code": "6282",
+    "description": "Investment advice"
+  },
+  {
+    "code": "6289",
+    "description": "Services allied with the exchange of securities or commodities, n"
+  },
+  {
+    "code": "63",
+    "description": "Insurance carriers"
+  },
+  {
+    "code": "631",
+    "description": "Life insurance"
+  },
+  {
+    "code": "6311",
+    "description": "Life insurance"
+  },
+  {
+    "code": "632",
+    "description": "Accident and health insurance and medical service plans"
+  },
+  {
+    "code": "6321",
+    "description": "Accident and health insurance"
+  },
+  {
+    "code": "6324",
+    "description": "Hospital and medical service plans"
+  },
+  {
+    "code": "633",
+    "description": "Fire, marine, and casualty insurance"
+  },
+  {
+    "code": "6331",
+    "description": "Fire, marine, and casualty insurance"
+  },
+  {
+    "code": "635",
+    "description": "Surety insurance"
+  },
+  {
+    "code": "6351",
+    "description": "Surety insurance"
+  },
+  {
+    "code": "636",
+    "description": "Title insurance"
+  },
+  {
+    "code": "6361",
+    "description": "Title insurance"
+  },
+  {
+    "code": "637",
+    "description": "Pension, health, and welfare funds"
+  },
+  {
+    "code": "6371",
+    "description": "Pension, health, and welfare funds"
+  },
+  {
+    "code": "639",
+    "description": "Insurance carriers, not elsewhere classified"
+  },
+  {
+    "code": "6399",
+    "description": "Insurance carriers, not elsewhere classified"
+  },
+  {
+    "code": "64",
+    "description": "Insurance agents, brokers, and service"
+  },
+  {
+    "code": "641",
+    "description": "Insurance agents, brokers, and service"
+  },
+  {
+    "code": "6411",
+    "description": "Insurance agents, brokers, and service"
+  },
+  {
+    "code": "65",
+    "description": "Real estate"
+  },
+  {
+    "code": "651",
+    "description": "Real estate operators (except developers) and lessors"
+  },
+  {
+    "code": "6512",
+    "description": "Operators of nonresidential buildings"
+  },
+  {
+    "code": "6513",
+    "description": "Operators of apartment buildings"
+  },
+  {
+    "code": "6514",
+    "description": "Operators of dwellings other than apartment buildings"
+  },
+  {
+    "code": "6515",
+    "description": "Operators of residential mobile home sites"
+  },
+  {
+    "code": "6517",
+    "description": "Lessors of railroad property"
+  },
+  {
+    "code": "6519",
+    "description": "Lessors of real property, not elsewhere classified"
+  },
+  {
+    "code": "653",
+    "description": "Real estate agents and managers"
+  },
+  {
+    "code": "6531",
+    "description": "Real estate agents and managers"
+  },
+  {
+    "code": "654",
+    "description": "Title abstract offices"
+  },
+  {
+    "code": "6541",
+    "description": "Title abstract offices"
+  },
+  {
+    "code": "655",
+    "description": "Land subdividers and developers"
+  },
+  {
+    "code": "6552",
+    "description": "Land subdividers and developers, except cemeteries"
+  },
+  {
+    "code": "6553",
+    "description": "Cemetery subdividers and developers"
+  },
+  {
+    "code": "67",
+    "description": "Holding and other investment offices"
+  },
+  {
+    "code": "671",
+    "description": "Holding offices"
+  },
+  {
+    "code": "6712",
+    "description": "Offices of bank holding companies"
+  },
+  {
+    "code": "6719",
+    "description": "Offices of holding companies, not elsewhere classified"
+  },
+  {
+    "code": "672",
+    "description": "Investment offices"
+  },
+  {
+    "code": "6722",
+    "description": "Management investment offices, open-end"
+  },
+  {
+    "code": "6726",
+    "description": "Unit investment trusts, face-amount certificate offices, and clos"
+  },
+  {
+    "code": "673",
+    "description": "Trusts"
+  },
+  {
+    "code": "6732",
+    "description": "Educational, religious, and charitable trusts"
+  },
+  {
+    "code": "6733",
+    "description": "Trusts, except educational, religious, and charitable"
+  },
+  {
+    "code": "679",
+    "description": "Miscellaneous investing"
+  },
+  {
+    "code": "6792",
+    "description": "Oil royalty traders"
+  },
+  {
+    "code": "6794",
+    "description": "Patent owners and lessors"
+  },
+  {
+    "code": "6798",
+    "description": "Real estate investment trusts"
+  },
+  {
+    "code": "6799",
+    "description": "Investors, not elsewhere classified"
+  },
+  {
+    "code": "70",
+    "description": "Hotels, rooming houses, camps, and other lodging places"
+  },
+  {
+    "code": "701",
+    "description": "Hotels and motels"
+  },
+  {
+    "code": "7011",
+    "description": "Hotels and motels"
+  },
+  {
+    "code": "702",
+    "description": "Rooming and boarding houses"
+  },
+  {
+    "code": "7021",
+    "description": "Rooming and boarding houses"
+  },
+  {
+    "code": "703",
+    "description": "Camps and recreational vehicle parks"
+  },
+  {
+    "code": "7032",
+    "description": "Sporting and recreational camps"
+  },
+  {
+    "code": "7033",
+    "description": "Recreational vehicle parks and campsites"
+  },
+  {
+    "code": "704",
+    "description": "Organization hotels and lodging houses, on membership basis"
+  },
+  {
+    "code": "7041",
+    "description": "Organization hotels and lodging houses, on membership basis"
+  },
+  {
+    "code": "72",
+    "description": "Personal services"
+  },
+  {
+    "code": "721",
+    "description": "Laundry, cleaning, and garment services"
+  },
+  {
+    "code": "7211",
+    "description": "Power laundries, family and commercial"
+  },
+  {
+    "code": "7212",
+    "description": "Garment pressing, and agents for laundries and drycleaners"
+  },
+  {
+    "code": "7213",
+    "description": "Linen supply"
+  },
+  {
+    "code": "7215",
+    "description": "Coin-operated laundries and drycleaning"
+  },
+  {
+    "code": "7216",
+    "description": "Drycleaning plants, except rug cleaning"
+  },
+  {
+    "code": "7217",
+    "description": "Carpet and upholstery cleaning"
+  },
+  {
+    "code": "7218",
+    "description": "Industrial launderers"
+  },
+  {
+    "code": "7219",
+    "description": "Laundry and garment services, not elsewhere classified"
+  },
+  {
+    "code": "722",
+    "description": "Photographic studios, portrait"
+  },
+  {
+    "code": "7221",
+    "description": "Photographic studios, portrait"
+  },
+  {
+    "code": "723",
+    "description": "Beauty shops"
+  },
+  {
+    "code": "7231",
+    "description": "Beauty shops"
+  },
+  {
+    "code": "724",
+    "description": "Barber shops"
+  },
+  {
+    "code": "7241",
+    "description": "Barber shops"
+  },
+  {
+    "code": "725",
+    "description": "Shoe repair shops and shoeshine parlors"
+  },
+  {
+    "code": "7251",
+    "description": "Shoe repair shops and shoeshine parlors"
+  },
+  {
+    "code": "726",
+    "description": "Funeral service and crematories"
+  },
+  {
+    "code": "7261",
+    "description": "Funeral service and crematories"
+  },
+  {
+    "code": "729",
+    "description": "Miscellaneous personal services"
+  },
+  {
+    "code": "7291",
+    "description": "Tax return preparation services"
+  },
+  {
+    "code": "7299",
+    "description": "Miscellaneous personal services, not elsewhere classified"
+  },
+  {
+    "code": "73",
+    "description": "Business services"
+  },
+  {
+    "code": "731",
+    "description": "Advertising"
+  },
+  {
+    "code": "7311",
+    "description": "Advertising agencies"
+  },
+  {
+    "code": "7312",
+    "description": "Outdoor advertising services"
+  },
+  {
+    "code": "7313",
+    "description": "Radio, television, and publishers' advertising representatives"
+  },
+  {
+    "code": "7319",
+    "description": "Advertising, not elsewhere classified"
+  },
+  {
+    "code": "732",
+    "description": "Consumer credit reporting agencies, mercantile reporting agencies,"
+  },
+  {
+    "code": "7322",
+    "description": "Adjustment and collection services"
+  },
+  {
+    "code": "7323",
+    "description": "Credit reporting services"
+  },
+  {
+    "code": "733",
+    "description": "Mailing, reproduction, commercial art and photography, and stenogr"
+  },
+  {
+    "code": "7331",
+    "description": "Direct mail advertising services"
+  },
+  {
+    "code": "7334",
+    "description": "Photocopying and duplicating services"
+  },
+  {
+    "code": "7335",
+    "description": "Commercial photography"
+  },
+  {
+    "code": "7336",
+    "description": "Commercial art and graphic design"
+  },
+  {
+    "code": "7338",
+    "description": "Secretarial and court reporting services"
+  },
+  {
+    "code": "734",
+    "description": "Services to dwellings and other buildings"
+  },
+  {
+    "code": "7342",
+    "description": "Disinfecting and pest control services"
+  },
+  {
+    "code": "7349",
+    "description": "Building cleaning and maintenance services, not elsewhere classif"
+  },
+  {
+    "code": "735",
+    "description": "Miscellaneous equipment rental and leasing"
+  },
+  {
+    "code": "7352",
+    "description": "Medical equipment rental and leasing"
+  },
+  {
+    "code": "7353",
+    "description": "Heavy construction equipment rental and leasing"
+  },
+  {
+    "code": "7359",
+    "description": "Equipment rental and leasing, not elsewhere classified"
+  },
+  {
+    "code": "736",
+    "description": "Personnel supply services"
+  },
+  {
+    "code": "7361",
+    "description": "Employment agencies"
+  },
+  {
+    "code": "7363",
+    "description": "Help supply services"
+  },
+  {
+    "code": "737",
+    "description": "Computer programming, data processing, and other computer related"
+  },
+  {
+    "code": "7371",
+    "description": "Computer programming services"
+  },
+  {
+    "code": "7372",
+    "description": "Prepackaged software"
+  },
+  {
+    "code": "7373",
+    "description": "Computer integrated systems design"
+  },
+  {
+    "code": "7374",
+    "description": "Computer processing and data preparation and processing services"
+  },
+  {
+    "code": "7375",
+    "description": "Information retrieval services"
+  },
+  {
+    "code": "7376",
+    "description": "Computer facilities management services"
+  },
+  {
+    "code": "7377",
+    "description": "Computer rental and leasing"
+  },
+  {
+    "code": "7378",
+    "description": "Computer maintenance and repair"
+  },
+  {
+    "code": "7379",
+    "description": "Computer related services, not elsewhere classified"
+  },
+  {
+    "code": "738",
+    "description": "Miscellaneous business services"
+  },
+  {
+    "code": "7381",
+    "description": "Detective, guard, and armored car services"
+  },
+  {
+    "code": "7382",
+    "description": "Security systems services"
+  },
+  {
+    "code": "7383",
+    "description": "News syndicates"
+  },
+  {
+    "code": "7384",
+    "description": "Photofinishing laboratories"
+  },
+  {
+    "code": "7389",
+    "description": "Business services, not elsewhere classified"
+  },
+  {
+    "code": "75",
+    "description": "Automotive repair, services, and parking"
+  },
+  {
+    "code": "751",
+    "description": "Automotive rental and leasing, without drivers"
+  },
+  {
+    "code": "7513",
+    "description": "Truck rental and leasing, without drivers"
+  },
+  {
+    "code": "7514",
+    "description": "Passenger car rental"
+  },
+  {
+    "code": "7515",
+    "description": "Passenger car leasing"
+  },
+  {
+    "code": "7519",
+    "description": "Utility trailer and recreational vehicle rental"
+  },
+  {
+    "code": "752",
+    "description": "Automobile parking"
+  },
+  {
+    "code": "7521",
+    "description": "Automobile parking"
+  },
+  {
+    "code": "753",
+    "description": "Automotive repair shops"
+  },
+  {
+    "code": "7532",
+    "description": "Top, body, and upholstery repair shops and paint shops"
+  },
+  {
+    "code": "7533",
+    "description": "Automotive exhaust system repair shops"
+  },
+  {
+    "code": "7534",
+    "description": "Tire retreading and repair shops"
+  },
+  {
+    "code": "7536",
+    "description": "Automotive glass replacement shops"
+  },
+  {
+    "code": "7537",
+    "description": "Automotive transmission repair shops"
+  },
+  {
+    "code": "7538",
+    "description": "General automotive repair shops"
+  },
+  {
+    "code": "7539",
+    "description": "Automotive repair shops, not elsewhere classified"
+  },
+  {
+    "code": "754",
+    "description": "Automotive services, except repair"
+  },
+  {
+    "code": "7542",
+    "description": "Carwashes"
+  },
+  {
+    "code": "7549",
+    "description": "Automotive services, except repair and carwashes"
+  },
+  {
+    "code": "76",
+    "description": "Miscellaneous repair services"
+  },
+  {
+    "code": "762",
+    "description": "Electrical repair shops"
+  },
+  {
+    "code": "7622",
+    "description": "Radio and television repair shops"
+  },
+  {
+    "code": "7623",
+    "description": "Refrigeration and air-conditioning service and repair shops"
+  },
+  {
+    "code": "7629",
+    "description": "Electrical and electronic repair shops, not elsewhere classified"
+  },
+  {
+    "code": "763",
+    "description": "Watch, clock, and jewelry repair"
+  },
+  {
+    "code": "7631",
+    "description": "Watch, clock, and jewelry repair"
+  },
+  {
+    "code": "764",
+    "description": "Reupholstery and furniture repair"
+  },
+  {
+    "code": "7641",
+    "description": "Reupholstery and furniture repair"
+  },
+  {
+    "code": "769",
+    "description": "Miscellaneous repair shops and related services"
+  },
+  {
+    "code": "7692",
+    "description": "Welding repair"
+  },
+  {
+    "code": "7694",
+    "description": "Armature rewinding shops"
+  },
+  {
+    "code": "7699",
+    "description": "Repair shops and related services, not elsewhere classified"
+  },
+  {
+    "code": "78",
+    "description": "Motion pictures"
+  },
+  {
+    "code": "781",
+    "description": "Motion picture production and allied services"
+  },
+  {
+    "code": "7812",
+    "description": "Motion picture and video tape production"
+  },
+  {
+    "code": "7819",
+    "description": "Services allied to motion picture production"
+  },
+  {
+    "code": "782",
+    "description": "Motion picture distribution and allied services"
+  },
+  {
+    "code": "7822",
+    "description": "Motion picture and video tape distribution"
+  },
+  {
+    "code": "7829",
+    "description": "Services allied to motion picture distribution"
+  },
+  {
+    "code": "783",
+    "description": "Motion picture theaters"
+  },
+  {
+    "code": "7832",
+    "description": "Motion picture theaters, except drive-in"
+  },
+  {
+    "code": "7833",
+    "description": "Drive-in motion picture theaters"
+  },
+  {
+    "code": "784",
+    "description": "Video tape rental"
+  },
+  {
+    "code": "7841",
+    "description": "Video tape rental"
+  },
+  {
+    "code": "79",
+    "description": "Amusement and recreation services"
+  },
+  {
+    "code": "791",
+    "description": "Dance studios, schools, and halls"
+  },
+  {
+    "code": "7911",
+    "description": "Dance studios, schools, and halls"
+  },
+  {
+    "code": "792",
+    "description": "Theatrical producers (except motion picture), bands, orchestras, a"
+  },
+  {
+    "code": "7922",
+    "description": "Theatrical producers (except motion picture) and miscellaneous th"
+  },
+  {
+    "code": "7929",
+    "description": "Bands, orchestras, actors, and other entertainers and entertainme"
+  },
+  {
+    "code": "793",
+    "description": "Bowling centers"
+  },
+  {
+    "code": "7933",
+    "description": "Bowling centers"
+  },
+  {
+    "code": "794",
+    "description": "Commercial sports"
+  },
+  {
+    "code": "7941",
+    "description": "Professional sports clubs and promoters"
+  },
+  {
+    "code": "7948",
+    "description": "Racing, including track operation"
+  },
+  {
+    "code": "799",
+    "description": "Miscellaneous amusement and recreation services"
+  },
+  {
+    "code": "7991",
+    "description": "Physical fitness facilities"
+  },
+  {
+    "code": "7992",
+    "description": "Public golf courses"
+  },
+  {
+    "code": "7993",
+    "description": "Coin-operated amusement devices"
+  },
+  {
+    "code": "7996",
+    "description": "Amusement parks"
+  },
+  {
+    "code": "7997",
+    "description": "Membership sports and recreation clubs"
+  },
+  {
+    "code": "7999",
+    "description": "Amusement and recreation services, not elsewhere classified"
+  },
+  {
+    "code": "80",
+    "description": "Health services"
+  },
+  {
+    "code": "801",
+    "description": "Offices and clinics of doctors of medicine"
+  },
+  {
+    "code": "8011",
+    "description": "Offices and clinics of doctors of medicine"
+  },
+  {
+    "code": "802",
+    "description": "Offices and clinics of dentists"
+  },
+  {
+    "code": "8021",
+    "description": "Offices and clinics of dentists"
+  },
+  {
+    "code": "803",
+    "description": "Offices and clinics of doctors of osteopathy"
+  },
+  {
+    "code": "8031",
+    "description": "Offices and clinics of doctors of osteopathy"
+  },
+  {
+    "code": "804",
+    "description": "Offices and clinics of other health practitioners"
+  },
+  {
+    "code": "8041",
+    "description": "Offices and clinics of chiropractors"
+  },
+  {
+    "code": "8042",
+    "description": "Offices and clinics of optometrists"
+  },
+  {
+    "code": "8043",
+    "description": "Offices and clinics of podiatrists"
+  },
+  {
+    "code": "8049",
+    "description": "Offices and clinics of health practitioners, not elsewhere classi"
+  },
+  {
+    "code": "805",
+    "description": "Nursing and personal care facilities"
+  },
+  {
+    "code": "8051",
+    "description": "Skilled nursing care facilities"
+  },
+  {
+    "code": "8052",
+    "description": "Intermediate care facilities"
+  },
+  {
+    "code": "8059",
+    "description": "Nursing and personal care facilities, not elsewhere classified"
+  },
+  {
+    "code": "806",
+    "description": "Hospitals"
+  },
+  {
+    "code": "8062",
+    "description": "General medical and surgical hospitals"
+  },
+  {
+    "code": "8063",
+    "description": "Psychiatric hospitals"
+  },
+  {
+    "code": "8069",
+    "description": "Specialty hospitals, except psychiatric"
+  },
+  {
+    "code": "807",
+    "description": "Medical and dental laboratories"
+  },
+  {
+    "code": "8071",
+    "description": "Medical laboratories"
+  },
+  {
+    "code": "8072",
+    "description": "Dental laboratories"
+  },
+  {
+    "code": "808",
+    "description": "Home health care services"
+  },
+  {
+    "code": "8082",
+    "description": "Home health care services"
+  },
+  {
+    "code": "809",
+    "description": "Miscellaneous health and allied services, not elsewhere classified"
+  },
+  {
+    "code": "8092",
+    "description": "Kidney dialysis centers"
+  },
+  {
+    "code": "8093",
+    "description": "Specialty outpatient facilities, not elsewhere classified"
+  },
+  {
+    "code": "8099",
+    "description": "Health and allied services, not elsewhere classified"
+  },
+  {
+    "code": "81",
+    "description": "Legal services"
+  },
+  {
+    "code": "811",
+    "description": "Legal services"
+  },
+  {
+    "code": "8111",
+    "description": "Legal services"
+  },
+  {
+    "code": "82",
+    "description": "Educational services"
+  },
+  {
+    "code": "821",
+    "description": "Elementary and secondary schools"
+  },
+  {
+    "code": "8211",
+    "description": "Elementary and secondary schools"
+  },
+  {
+    "code": "822",
+    "description": "Colleges, universities, professional schools, and junior colleges"
+  },
+  {
+    "code": "8221",
+    "description": "Colleges, universities, and professional schools"
+  },
+  {
+    "code": "8222",
+    "description": "Junior colleges and technical institutes"
+  },
+  {
+    "code": "823",
+    "description": "Libraries"
+  },
+  {
+    "code": "8231",
+    "description": "Libraries"
+  },
+  {
+    "code": "824",
+    "description": "Vocational schools"
+  },
+  {
+    "code": "8243",
+    "description": "Data processing schools"
+  },
+  {
+    "code": "8244",
+    "description": "Business and secretarial schools"
+  },
+  {
+    "code": "8249",
+    "description": "Vocational schools, not elsewhere classified"
+  },
+  {
+    "code": "829",
+    "description": "Schools and educational services, not elsewhere classified"
+  },
+  {
+    "code": "8299",
+    "description": "Schools and educational services, not elsewhere classified"
+  },
+  {
+    "code": "83",
+    "description": "Social services"
+  },
+  {
+    "code": "832",
+    "description": "Individual and family social services"
+  },
+  {
+    "code": "8322",
+    "description": "Individual and family social services"
+  },
+  {
+    "code": "833",
+    "description": "Job training and vocational rehabilitation services"
+  },
+  {
+    "code": "8331",
+    "description": "Job training and vocational rehabilitation services"
+  },
+  {
+    "code": "835",
+    "description": "Child day care services"
+  },
+  {
+    "code": "8351",
+    "description": "Child day care services"
+  },
+  {
+    "code": "836",
+    "description": "Residential care"
+  },
+  {
+    "code": "8361",
+    "description": "Residential care"
+  },
+  {
+    "code": "839",
+    "description": "Social services, not elsewhere classified"
+  },
+  {
+    "code": "8399",
+    "description": "Social services, not elsewhere classified"
+  },
+  {
+    "code": "84",
+    "description": "Museums, art galleries, and botanical and zoological gardens"
+  },
+  {
+    "code": "841",
+    "description": "Museums and art galleries"
+  },
+  {
+    "code": "8412",
+    "description": "Museums and art galleries"
+  },
+  {
+    "code": "842",
+    "description": "Arboreta and botanical or zoological gardens"
+  },
+  {
+    "code": "8422",
+    "description": "Arboreta and botanical or zoological gardens"
+  },
+  {
+    "code": "86",
+    "description": "Membership organizations"
+  },
+  {
+    "code": "861",
+    "description": "Business associations"
+  },
+  {
+    "code": "8611",
+    "description": "Business associations"
+  },
+  {
+    "code": "862",
+    "description": "Professional membership organizations"
+  },
+  {
+    "code": "8621",
+    "description": "Professional membership organizations"
+  },
+  {
+    "code": "863",
+    "description": "Labor unions and similar labor organizations"
+  },
+  {
+    "code": "8631",
+    "description": "Labor unions and similar labor organizations"
+  },
+  {
+    "code": "864",
+    "description": "Civic, social, and fraternal associations"
+  },
+  {
+    "code": "8641",
+    "description": "Civic, social, and fraternal associations"
+  },
+  {
+    "code": "865",
+    "description": "Political organizations"
+  },
+  {
+    "code": "8651",
+    "description": "Political organizations"
+  },
+  {
+    "code": "866",
+    "description": "Religious organizations"
+  },
+  {
+    "code": "8661",
+    "description": "Religious organizations"
+  },
+  {
+    "code": "869",
+    "description": "Membership organizations, not elsewhere classified"
+  },
+  {
+    "code": "8699",
+    "description": "Membership organizations, not elsewhere classified"
+  },
+  {
+    "code": "87",
+    "description": "Engineering, accounting, research, management, and related services"
+  },
+  {
+    "code": "871",
+    "description": "Engineering, architectural, and surveying services"
+  },
+  {
+    "code": "8711",
+    "description": "Engineering services"
+  },
+  {
+    "code": "8712",
+    "description": "Architectural services"
+  },
+  {
+    "code": "8713",
+    "description": "Surveying services"
+  },
+  {
+    "code": "872",
+    "description": "Accounting, auditing, and bookkeeping services"
+  },
+  {
+    "code": "8721",
+    "description": "Accounting, auditing, and bookkeeping services"
+  },
+  {
+    "code": "873",
+    "description": "Research, development, and testing services"
+  },
+  {
+    "code": "8731",
+    "description": "Commercial physical and biological research"
+  },
+  {
+    "code": "8732",
+    "description": "Commercial economic, sociological, and educational research"
+  },
+  {
+    "code": "8733",
+    "description": "Noncommercial research organizations"
+  },
+  {
+    "code": "8734",
+    "description": "Testing laboratories"
+  },
+  {
+    "code": "874",
+    "description": "Management and public relations services"
+  },
+  {
+    "code": "8741",
+    "description": "Management services"
+  },
+  {
+    "code": "8742",
+    "description": "Management consulting services"
+  },
+  {
+    "code": "8743",
+    "description": "Public relations services"
+  },
+  {
+    "code": "8744",
+    "description": "Facilities support management services"
+  },
+  {
+    "code": "8748",
+    "description": "Business consulting services, not elsewhere classified"
+  },
+  {
+    "code": "88",
+    "description": "Private households"
+  },
+  {
+    "code": "881",
+    "description": "Private households"
+  },
+  {
+    "code": "8811",
+    "description": "Private households"
+  },
+  {
+    "code": "89",
+    "description": "Services, not elsewhere classified"
+  },
+  {
+    "code": "899",
+    "description": "Services, not elsewhere classified"
+  },
+  {
+    "code": "8999",
+    "description": "Services, not elsewhere classified"
+  },
+  {
+    "code": "91",
+    "description": "Executive, legislative, and general government, except finance"
+  },
+  {
+    "code": "911",
+    "description": "Executive offices"
+  },
+  {
+    "code": "9111",
+    "description": "Executive offices"
+  },
+  {
+    "code": "912",
+    "description": "Legislative bodies"
+  },
+  {
+    "code": "9121",
+    "description": "Legislative bodies"
+  },
+  {
+    "code": "913",
+    "description": "Executive and legislative offices combined"
+  },
+  {
+    "code": "9131",
+    "description": "Executive and legislative offices combined"
+  },
+  {
+    "code": "919",
+    "description": "General government, not elsewhere classified"
+  },
+  {
+    "code": "9199",
+    "description": "General government, not elsewhere classified"
+  },
+  {
+    "code": "92",
+    "description": "Justice, public order, and safety"
+  },
+  {
+    "code": "921",
+    "description": "Courts"
+  },
+  {
+    "code": "9211",
+    "description": "Courts"
+  },
+  {
+    "code": "922",
+    "description": "Public order and safety"
+  },
+  {
+    "code": "9221",
+    "description": "Police protection"
+  },
+  {
+    "code": "9222",
+    "description": "Legal counsel and prosecution"
+  },
+  {
+    "code": "9223",
+    "description": "Correctional institutions"
+  },
+  {
+    "code": "9224",
+    "description": "Fire protection"
+  },
+  {
+    "code": "9229",
+    "description": "Public order and safety, not elsewhere classified"
+  },
+  {
+    "code": "93",
+    "description": "Public finance, taxation, and monetary policy"
+  },
+  {
+    "code": "931",
+    "description": "Public finance, taxation, and monetary policy"
+  },
+  {
+    "code": "9311",
+    "description": "Public finance, taxation, and monetary policy"
+  },
+  {
+    "code": "94",
+    "description": "Administration of human resource programs"
+  },
+  {
+    "code": "941",
+    "description": "Administration of educational programs"
+  },
+  {
+    "code": "9411",
+    "description": "Administration of educational programs"
+  },
+  {
+    "code": "943",
+    "description": "Administration of public health programs"
+  },
+  {
+    "code": "9431",
+    "description": "Administration of public health programs"
+  },
+  {
+    "code": "944",
+    "description": "Administration of social, human resource and income maintenance pr"
+  },
+  {
+    "code": "9441",
+    "description": "Administration of social, human resource and income maintenance p"
+  },
+  {
+    "code": "945",
+    "description": "Administration of veterans' affairs, except health and insurance"
+  },
+  {
+    "code": "9451",
+    "description": "Administration of veterans' affairs, except health and insurance"
+  },
+  {
+    "code": "95",
+    "description": "Administration of environmental quality and housing programs"
+  },
+  {
+    "code": "951",
+    "description": "Administration of environmental quality programs"
+  },
+  {
+    "code": "9511",
+    "description": "Air and water resource and solid waste management"
+  },
+  {
+    "code": "9512",
+    "description": "Land, mineral, wildlife, and forest conservation"
+  },
+  {
+    "code": "953",
+    "description": "Administration of housing and urban development programs"
+  },
+  {
+    "code": "9531",
+    "description": "Administration of housing programs"
+  },
+  {
+    "code": "9532",
+    "description": "Administration of urban planning and community and rural developm"
+  },
+  {
+    "code": "96",
+    "description": "Administration of economic programs"
+  },
+  {
+    "code": "961",
+    "description": "Administration of general economic programs"
+  },
+  {
+    "code": "9611",
+    "description": "Administration of general economic programs"
+  },
+  {
+    "code": "962",
+    "description": "Regulation and administration of transportation programs"
+  },
+  {
+    "code": "9621",
+    "description": "Regulation and administration of transportation programs"
+  },
+  {
+    "code": "963",
+    "description": "Regulation and administration of communications, electric, gas, an"
+  },
+  {
+    "code": "9631",
+    "description": "Regulation and administration of communications, electric, gas, a"
+  },
+  {
+    "code": "964",
+    "description": "Regulation of agricultural marketing and commodities"
+  },
+  {
+    "code": "9641",
+    "description": "Regulation of agricultural marketing and commodities"
+  },
+  {
+    "code": "965",
+    "description": "Regulation, licensing, and inspection of miscellaneous commercial"
+  },
+  {
+    "code": "9651",
+    "description": "Regulation, licensing, and inspection of miscellaneous commercial"
+  },
+  {
+    "code": "966",
+    "description": "Space research and technology"
+  },
+  {
+    "code": "9661",
+    "description": "Space research and technology"
+  },
+  {
+    "code": "97",
+    "description": "National security and international affairs"
+  },
+  {
+    "code": "971",
+    "description": "National security"
+  },
+  {
+    "code": "9711",
+    "description": "National security"
+  },
+  {
+    "code": "972",
+    "description": "International affairs"
+  },
+  {
+    "code": "9721",
+    "description": "International affairs"
+  },
+  {
+    "code": "99",
+    "description": "Nonclassifiable establishments"
+  },
+  {
+    "code": "999",
+    "description": "Nonclassifiable establishments"
+  },
+  {
+    "code": "9999",
+    "description": "Nonclassifiable establishments"
+  }
+]

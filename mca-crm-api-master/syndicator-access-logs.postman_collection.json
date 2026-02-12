@@ -1,0 +1,411 @@
+{
+	"info": {
+		"_postman_id": "syndicator-access-logs-collection",
+		"name": "Syndicator Access Logs API",
+		"description": "API endpoints for managing syndicator access logs including creation, retrieval, filtering, statistics, and cleanup operations.",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Get All Syndicator Access Logs",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"url": {
+					"raw": "{{baseUrl}}/api/v1/syndicators/access-logs?page=1&limit=10&syndicator={{syndicatorId}}&operation=LOGIN&start_date=2024-01-01&end_date=2024-12-31&ip_address=192.168&sort=-access_date",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"api",
+						"v1",
+						"syndicators",
+						"access-logs"
+					],
+					"query": [
+						{
+							"key": "page",
+							"value": "1",
+							"description": "Page number for pagination"
+						},
+						{
+							"key": "limit",
+							"value": "10",
+							"description": "Number of records per page"
+						},
+						{
+							"key": "syndicator",
+							"value": "{{syndicatorId}}",
+							"description": "Filter by syndicator ID"
+						},
+						{
+							"key": "operation",
+							"value": "LOGIN",
+							"description": "Filter by operation type (LOGIN, LOGOUT, SESSION_TIMEOUT)"
+						},
+						{
+							"key": "start_date",
+							"value": "2024-01-01",
+							"description": "Start date for filtering (YYYY-MM-DD)"
+						},
+						{
+							"key": "end_date",
+							"value": "2024-12-31",
+							"description": "End date for filtering (YYYY-MM-DD)"
+						},
+						{
+							"key": "ip_address",
+							"value": "192.168",
+							"description": "Filter by IP address (partial match)"
+						},
+						{
+							"key": "sort",
+							"value": "-access_date",
+							"description": "Sort fields (prefix with - for descending)"
+						}
+					]
+				},
+				"description": "Get paginated list of syndicator access logs with optional filtering by syndicator, operation, date range, and IP address."
+			}
+		},
+		{
+			"name": "Get Syndicator Access Logs List",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"url": {
+					"raw": "{{baseUrl}}/api/v1/syndicators/access-logs/list?syndicator={{syndicatorId}}&operation=LOGOUT&start_date=2024-01-01&end_date=2024-12-31&sort=-access_date",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"api",
+						"v1",
+						"syndicators",
+						"access-logs",
+						"list"
+					],
+					"query": [
+						{
+							"key": "syndicator",
+							"value": "{{syndicatorId}}",
+							"description": "Filter by syndicator ID"
+						},
+						{
+							"key": "operation",
+							"value": "LOGOUT",
+							"description": "Filter by operation type"
+						},
+						{
+							"key": "start_date",
+							"value": "2024-01-01",
+							"description": "Start date for filtering"
+						},
+						{
+							"key": "end_date",
+							"value": "2024-12-31",
+							"description": "End date for filtering"
+						},
+						{
+							"key": "sort",
+							"value": "-access_date",
+							"description": "Sort fields"
+						}
+					]
+				},
+				"description": "Get complete list of syndicator access logs without pagination."
+			}
+		},
+		{
+			"name": "Get Single Syndicator Access Log",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"url": {
+					"raw": "{{baseUrl}}/api/v1/syndicators/access-logs/{{accessLogId}}",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"api",
+						"v1",
+						"syndicators",
+						"access-logs",
+						"{{accessLogId}}"
+					]
+				},
+				"description": "Get a single syndicator access log by ID with populated syndicator details."
+			}
+		},
+		{
+			"name": "Get Syndicator Access Logs by Syndicator ID",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"url": {
+					"raw": "{{baseUrl}}/api/v1/syndicators/{{syndicatorId}}/access-logs?page=1&limit=10&operation=LOGIN&start_date=2024-01-01&end_date=2024-12-31&sort=-access_date",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"api",
+						"v1",
+						"syndicators",
+						"{{syndicatorId}}",
+						"access-logs"
+					],
+					"query": [
+						{
+							"key": "page",
+							"value": "1",
+							"description": "Page number"
+						},
+						{
+							"key": "limit",
+							"value": "10",
+							"description": "Records per page"
+						},
+						{
+							"key": "operation",
+							"value": "LOGIN",
+							"description": "Filter by operation type"
+						},
+						{
+							"key": "start_date",
+							"value": "2024-01-01",
+							"description": "Start date filter"
+						},
+						{
+							"key": "end_date",
+							"value": "2024-12-31",
+							"description": "End date filter"
+						},
+						{
+							"key": "sort",
+							"value": "-access_date",
+							"description": "Sort order"
+						}
+					]
+				},
+				"description": "Get access logs for a specific syndicator with pagination and filtering options."
+			}
+		},
+		{
+			"name": "Get Syndicator Access Logs by Operation",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"url": {
+					"raw": "{{baseUrl}}/api/v1/syndicators/access-logs/operation/LOGIN?page=1&limit=10&syndicator={{syndicatorId}}&start_date=2024-01-01&end_date=2024-12-31&sort=-access_date",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"api",
+						"v1",
+						"syndicators",
+						"access-logs",
+						"operation",
+						"LOGIN"
+					],
+					"query": [
+						{
+							"key": "page",
+							"value": "1",
+							"description": "Page number"
+						},
+						{
+							"key": "limit",
+							"value": "10",
+							"description": "Records per page"
+						},
+						{
+							"key": "syndicator",
+							"value": "{{syndicatorId}}",
+							"description": "Filter by syndicator ID"
+						},
+						{
+							"key": "start_date",
+							"value": "2024-01-01",
+							"description": "Start date filter"
+						},
+						{
+							"key": "end_date",
+							"value": "2024-12-31",
+							"description": "End date filter"
+						},
+						{
+							"key": "sort",
+							"value": "-access_date",
+							"description": "Sort order"
+						}
+					]
+				},
+				"description": "Get access logs filtered by operation type (LOGIN, LOGOUT, SESSION_TIMEOUT)."
+			}
+		},
+		{
+			"name": "Get Recent Syndicator Activity",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"url": {
+					"raw": "{{baseUrl}}/api/v1/syndicators/access-logs/recent-activity?limit=50",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"api",
+						"v1",
+						"syndicators",
+						"access-logs",
+						"recent-activity"
+					],
+					"query": [
+						{
+							"key": "limit",
+							"value": "50",
+							"description": "Maximum number of recent activities to return (1-100)"
+						}
+					]
+				},
+				"description": "Get recent activity summary showing the last activity for each syndicator."
+			}
+		},
+		{
+			"name": "Get Syndicator Login Statistics",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"url": {
+					"raw": "{{baseUrl}}/api/v1/syndicators/{{syndicatorId}}/access-logs/stats?days=30",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"api",
+						"v1",
+						"syndicators",
+						"{{syndicatorId}}",
+						"access-logs",
+						"stats"
+					],
+					"query": [
+						{
+							"key": "days",
+							"value": "30",
+							"description": "Number of days to include in statistics (1-365)"
+						}
+					]
+				},
+				"description": "Get login statistics for a specific syndicator over a specified number of days."
+			}
+		},
+		{
+			"name": "Create Syndicator Access Log",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"syndicator\": \"{{syndicatorId}}\",\n    \"operation\": \"LOGIN\",\n    \"ip_address\": \"192.168.1.100\",\n    \"access_date\": \"2024-01-15T10:30:00.000Z\"\n}"
+				},
+				"url": {
+					"raw": "{{baseUrl}}/api/v1/syndicators/access-logs",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"api",
+						"v1",
+						"syndicators",
+						"access-logs"
+					]
+				},
+				"description": "Create a new syndicator access log entry (mainly for testing or manual logging)."
+			}
+		},
+		{
+			"name": "Delete Old Syndicator Access Logs",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"days_to_keep\": 365\n}"
+				},
+				"url": {
+					"raw": "{{baseUrl}}/api/v1/syndicators/access-logs/cleanup",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"api",
+						"v1",
+						"syndicators",
+						"access-logs",
+						"cleanup"
+					]
+				},
+				"description": "Delete old syndicator access logs for cleanup. Keeps logs newer than specified days (30-3650)."
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "syndicatorId",
+			"value": "507f1f77bcf86cd799439011",
+			"description": "Sample syndicator ID for testing"
+		},
+		{
+			"key": "accessLogId",
+			"value": "507f1f77bcf86cd799439012",
+			"description": "Sample access log ID for testing"
+		}
+	]
+} 

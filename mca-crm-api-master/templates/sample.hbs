@@ -1,0 +1,282 @@
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <style>
+      body { margin: 0; font-family: Arial, sans-serif; line-height: 1.4; }
+      .a4-container { width: 210mm; height: 297mm; margin: 0 auto; box-sizing:
+      border-box; display: flex; flex-direction: column; padding: 10mm; } .h2 {
+      background-color: #aaf7bd; width: fit-content; padding: 0px;
+      padding-inline: 10px; margin-block: 0.83em; display: flex; height: 4em; }
+      h2 { margin: 0px !important; } .font-sm { font-size: 0.9rem; text-wrap:
+      nowrap; } .info-line { display: flex; flex-direction: column; } .info-line
+      strong { flex: 1; } .info-line span { flex: 1; } table { width: 100%;
+      border-collapse: collapse; background-color: white; box-shadow: 0 2px 4px
+      rgba(0, 0, 0, 0.1); } thead tr { background-color: #2d5f3f; height: 3em; }
+      tbody tr { height: 3em; } th { padding-inline: 8px; text-align: left;
+      color: white; font-weight: normal; border: 1px solid #2d5f3f; font-size:
+      0.9rem; text-wrap: nowrap; } td { font-size: 0.9rem; padding: 8px; border:
+      1px solid #ddd; text-align: left; text-wrap: nowrap; } .total-row-bg {
+      background-color: #e8f5e9; } .grand-total-row td { color: white;
+      font-weight: normal; border: 1px solid #2d5f3f; background-color: #2d5f3f
+      !important; } .footer { background-color: #2d5f3f; padding: 15px;
+      margin-top: 20px; border-radius: 5px; box-shadow: 0 2px 4px rgba(0, 0, 0,
+      0.1); } .footer-content { background-color: #04273a; padding: 10px;
+      border-radius: 50px; display: flex; justify-content: space-around;
+      align-items: center; flex-wrap: wrap; } .footer-item { color: white;
+      font-size: 14px; margin: 5px 20px; display: flex; align-items: center; }
+      .footer-item span:first-child { margin-right: 8px; }
+      .signature-box { border: 1px solid #000; padding: 20px; margin: 20px 0; }
+    </style>
+  </head>
+
+  <body>
+    <div
+      class="a4-container"
+      style="
+        width: 210mm;
+        height: 297mm;
+        margin: 0 auto;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        padding: 10mm;
+      "
+    >
+      <div
+        style="display: flex; align-items: center; justify-content: space-between;
+      width: 100%;"
+      >
+        <div style="">
+          <h1>Customer Invoice</h1>
+        </div>
+        <div style="height: 100px">
+          {{#if logoDataUri}}
+            <img src="{{logoDataUri}}" alt="Logo" style="height: 100%" />
+          {{/if}}
+        </div>
+
+      </div>
+      <div style="display: flex; width: 100%">
+        {{! <div class="h2">
+          <h2>Customer Details</h2>
+        </div> }}
+        <div
+          style="flex-grow: 1; display: flex; flex-direction: column; gap: 5px"
+        >
+          <span class="info-line"><strong style="flex: 1">Customer Name:</strong><span
+              style="flex: 1"
+            >{{customerName}}</span></span>
+          <span class="info-line"><strong style="flex: 1">LPO/MR No.:</strong><span
+              style="flex: 1"
+            >{{lpoNumber}}</span></span>
+        </div>
+        <div
+          style="flex-grow: 1; display: flex; flex-direction: column; gap: 5px"
+        >
+          <span class="info-line"><strong style="flex: 1"></strong><span
+              style="flex: 1"
+            ></span></span>
+          <span class="info-line"><strong style="flex: 1">Invoice No.:</strong><span
+              style="flex: 1"
+            >{{invoiceNumber}}</span></span>
+          <span class="info-line"><strong style="flex: 1">Invoice Date:</strong><span
+              style="flex: 1"
+            >{{invoiceDate}}</span></span>
+        </div>
+      </div>
+      <div style="display: flex; width: 100%">
+        <span class="info-line"><strong style="flex: 1">Delivery Site:</strong><span
+            style="flex: 1"
+          >{{deliverySite}}</span></span>
+      </div>
+      <div style="height: 50px"></div>
+      <div style="width: 100%">
+        <table>
+          <thead>
+            <tr>
+              <th style="width: 8%; padding-bottom: 1.5em">S. No.</th>
+              <th style="width: 22%; padding-bottom: 1.5em">Item</th>
+              <th style="width: 35%; padding-bottom: 1.5em">Botanical Name</th>
+              <th style="text-align: center; width: 10%; padding-bottom: 1.5em">
+                Quantity
+              </th>
+              <th style="text-align: right; width: 12%; padding-bottom: 1.5em">
+                Price
+              </th>
+              <th style="text-align: right; width: 13%; padding-bottom: 1.5em">
+                Total
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            {{#each items}}
+              <tr>
+                <td
+                  class="font-sm"
+                  style="text-align: left; padding-bottom: 1.5em"
+                >
+                  {{inc @index}}
+                </td>
+                <td
+                  class="font-sm"
+                  style="text-align: left; padding-bottom: 1.5em"
+                >
+                  {{this.name}}
+                </td>
+                <td
+                  class="font-sm"
+                  style="text-align: left; padding-bottom: 1.5em"
+                >
+                  {{this.description}}
+                </td>
+                <td
+                  class="font-sm"
+                  style="text-align: center; padding-bottom: 1.5em"
+                >
+                  {{this.quantity}}
+                </td>
+                <td
+                  class="font-sm"
+                  style="text-align: right; padding-bottom: 1.5em"
+                >
+                  د.إ
+                  {{this.price}}
+                </td>
+                <td
+                  class="font-sm"
+                  style="text-align: right; padding-bottom: 1.5em"
+                >
+                  د.إ
+                  {{this.total}}
+                </td>
+              </tr>
+            {{/each}}
+          </tbody>
+        </table>
+      </div>
+      <div style="height: 40px"></div>
+      <div style="width: 100%; flex-grow: 1">
+        <table>
+          <tbody>
+            <tr>
+              <td
+                class="font-sm total-row-bg"
+                style="text-align: right; width: 70%; padding-bottom: 1.5em"
+              >
+                Sub Total
+              </td>
+              <td
+                class="font-sm total-row-bg"
+                style="text-align: right; width: 30%; padding-bottom: 1.5em"
+              >
+                د.إ
+                {{subTotal}}
+              </td>
+            </tr>
+            <tr>
+              <td
+                class="font-sm total-row-bg"
+                style="text-align: right; padding-bottom: 1.5em"
+              >
+                Tax Amount
+              </td>
+              <td
+                class="font-sm total-row-bg"
+                style="text-align: right; padding-bottom: 1.5em"
+              >
+                د.إ
+                {{taxAmount}}
+              </td>
+            </tr>
+            <tr class="grand-total-row">
+              <td
+                class="font-sm"
+                style="text-align: right; padding-bottom: 1.5em"
+              >
+                GRAND TOTAL
+              </td>
+              <td
+                class="font-sm"
+                style="text-align: right; padding-bottom: 1.5em"
+              >
+                د.إ
+                {{grandTotal}}
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div style="background-color: white; padding: 20px; width: 60%">
+        <div style="margin-bottom: 10px; display: flex; align-items: center">
+          <span
+            style="
+              display: inline-block;
+              width: 150px;
+              font-size: 14px;
+              color: #333;
+              flex: 1;
+              padding-bottom: 0.8em;
+            "
+          >Receiver Name:</span>
+          <span
+            style="
+              display: inline-block;
+              border-bottom: 1px solid #333;
+              height: 20px;
+              flex: 3;
+              text-align: center;
+              padding-bottom: 0.8em;
+            "
+          >
+          {{receiverName}}
+          </span>
+        </div>
+        <div style="margin-bottom: 10px; display: flex; align-items: center">
+          <span
+            style="
+              display: inline-block;
+              width: 150px;
+              font-size: 14px;
+              color: #333;
+              flex: 1;
+              padding-bottom: 0.8em;
+            "
+          >Mobile No:</span>
+          <span
+            style="
+              display: inline-block;
+              border-bottom: 1px solid #333;
+              height: 20px;
+              flex: 3;
+              text-align: center;
+              padding-bottom: 0.8em;
+            "
+          >
+          {{receiverMobile}}
+          </span>
+        </div>
+        <div style="margin-bottom: 10px; display: flex; align-items: center">
+          <div class="signature-box">
+            <p>Signature:</p>
+            [[SIGN:signature]]
+        </div>
+      </div>
+      <div class="footer">
+        <div class="footer-content">
+          <div class="footer-item">
+            <span style="margin-right: 8px; padding-bottom: 0.8em">🌐</span>
+            <span style="padding-bottom: 0.8em">https://tribulusllc.com</span>
+          </div>
+          <div class="footer-item">
+            <span style="margin-right: 8px; padding-bottom: 0.8em">📞</span>
+            <span style="padding-bottom: 0.8em">+971 54 501 1464</span>
+          </div>
+          <div class="footer-item">
+            <span style="margin-right: 8px; padding-bottom: 0.8em">✉️</span>
+            <span style="padding-bottom: 0.8em">info@tribulusllc.ae</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
